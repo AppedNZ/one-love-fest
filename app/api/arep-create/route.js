@@ -1,4 +1,5 @@
 import * as crypto from "crypto";
+
 export async function POST(req) {
   const { email, fname, lname, tag, country, location } = (await req?.json()) || {};
 
@@ -27,7 +28,7 @@ export async function POST(req) {
     maxBodyLength: Infinity,
     url: "https://arep.co/api/v1/ingest/contacts?provider=juicyfest",
     headers: {
-      Authorization: "Bearer ec9707c4c66a9e247c11a8253e2d3081342923210e0d50b7b8cdbbfc3082a88c",
+      Authorization: `Bearer ${process.env.NEXT_APP_AREP_TOKEN}`,
       "Content-Type": "application/json",
     },
     data: data,
@@ -49,10 +50,10 @@ export async function POST(req) {
     maxBodyLength: Infinity,
     url: "https://arep.co/api/v1/ingest/mailing-list?provider=juicyfest",
     headers: {
-      Authorization: "Bearer ec9707c4c66a9e247c11a8253e2d3081342923210e0d50b7b8cdbbfc3082a88c",
+      Authorization: `Bearer ${process.env.NEXT_APP_AREP_TOKEN}`,
       "Content-Type": "application/json",
     },
-    data: { name: "juicy-fest-25", "contact-ids": [email.toLowerCase()] },
+    data: { name: "one-love-25", "contact-ids": [email.toLowerCase()] },
   };
   let list_res = axios
     .request(mailinListConfig)

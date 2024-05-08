@@ -1,7 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import bg from "../assets/bg.webp";
+import bg from "../assets/bg.jpeg";
 import logo from "../assets/logo.svg";
 import Socials from "../components/Socials";
 import SubmitForm from "../components/SubmitForm";

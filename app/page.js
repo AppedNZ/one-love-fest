@@ -30,8 +30,8 @@ export default function Home() {
               transition={{ delay: 0.5 }}
               animate={{ opacity: 1 }}
               className="text-xl text-stroke lg:text-4xl leading-none  tracking-[2%] text-center uppercase text-balance max-w-[760px] py-5 darma-e">
-              Thank you for attending One Love Fest &apos;24. Stay tuned for updates and
-              announcements for One Love Fest &apos;25.
+              THANK YOU FOR ATTENDING ONE LOVE 2024. STAY TUNED FOR UPDATES AND ANNOUNCEMENTS FOR
+              ONE LOVE 2025.
             </motion.p>
           </div>
           <div className="w-full ">

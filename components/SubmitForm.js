@@ -167,8 +167,8 @@ export default function SubmitForm() {
         </>
       ) : (
         <p className="text-3xl lg:text-40 leading-none  tracking-[2%] text-center uppercase text-balance max-w-[710px] py-5 darma-e">
-          You will be one of the first to receive updates and announcements for Jammin &apos;25.
-          📢🎉
+          You will be one of the first to receive updates and announcements for One Love Fest
+          &apos;25. 📢🎉
         </p>
       )}
     </form>

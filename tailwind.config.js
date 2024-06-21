@@ -14,7 +14,7 @@ module.exports = {
         peach: "#6B0000",
         lemon: "#FFFF00",
         error: "#EE584D",
-        mustard: "#FF8C00",
+        mustard: "#F9B20D",
         purp: "#7200FF",
       },
     },

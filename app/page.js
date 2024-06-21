@@ -31,6 +31,16 @@ export default function Home() {
               initial={{ opacity: 0 }}
               transition={{ delay: 0.5 }}
               animate={{ opacity: 1 }}
+              className="text-lg  text-stroke lg:text-4xl leading-none   text-center uppercase text-balance  py-2 darma-e">
+              On July 1, we’re planning to announce the line-up, but until then, we’ve opened up
+              registrations for pre-sale access, which comes with plenty of perks. These include
+              discounted GA, VIP and VVIP tickets access, a free One Love t-shirt and the chance to
+              win VVIP, VIP and GA Tickets and more.
+            </motion.p>
+            {/* <motion.p
+              initial={{ opacity: 0 }}
+              transition={{ delay: 0.5 }}
+              animate={{ opacity: 1 }}
               className="text-lg text-stroke lg:text-4xl leading-none  text-center uppercase text-balance  py-2 darma-e mt-4">
               <span className="text-mustard">Pre-registration:</span> 1st July to 9th July
             </motion.p>
@@ -55,7 +65,7 @@ export default function Home() {
               animate={{ opacity: 1 }}
               className="text-md  text-stroke lg:text-4xl leading-none   text-center uppercase text-balance  py-2 darma-e text-mustard">
               *$5 courier fee for each t-shirt
-            </motion.p>
+            </motion.p> */}
             <motion.a
               initial={{ opacity: 0 }}
               transition={{ delay: 0.5 }}

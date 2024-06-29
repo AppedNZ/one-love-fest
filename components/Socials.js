@@ -14,14 +14,14 @@ const socials = [
     link: "https://open.spotify.com/user/31vajsu3we3mvj66dcvsigcpz6ia?si=aB-_G0PUQLqH6PVGHkcISw&nd=1&dlsi=a0637a0e37d44e6a",
   },
 ];
-export default function Socials() {
+export default function Socials({ className }) {
   const parent = {
     show: {
       opacity: 1,
       transition: {
         duration: 1,
         staggerChildren: 0.2,
-        delayChildren: 1,
+        delayChildren: 0.0,
       },
     },
     hidden: {
@@ -38,15 +38,25 @@ export default function Socials() {
     },
   };
   return (
-    <motion.div variants={parent} initial="hidden" animate="show" className="flex gap-7 ">
+    <motion.div
+      variants={parent}
+      initial="hidden"
+      animate="show"
+      className={`flex gap-4 ${className}`}>
       {socials.map((link) => (
         <motion.a
           target="_blank"
           variants={child}
           key={link.id}
           href={link.link}
-          className="w-6 h-6 inline-flex justify-center items-center  transition-all hover:scale-105 cursor-pointer">
-          <Image width={link.icon.width} height={link.icon.height} src={link.icon} alt={link.id} />
+          className="w-10 h-10 inline-flex justify-center items-center  transition-all hover:scale-105 cursor-pointer bg-black rounded-10">
+          <Image
+            className="w-6 h-6"
+            width={link.icon.width}
+            height={link.icon.height}
+            src={link.icon}
+            alt={link.id}
+          />
         </motion.a>
       ))}
     </motion.div>

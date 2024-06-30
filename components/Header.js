@@ -77,7 +77,7 @@ export default function Header() {
           <Link
             href={"/buy-tickets"}
             className="w-max p-4 rounded-md bg-pink leading-none font-bold text-white uppercase transition-all hover:text-pink hover:bg-white">
-            Buy Tickets
+            <span> Pre-REg</span>
           </Link>
         ) : (
           <a

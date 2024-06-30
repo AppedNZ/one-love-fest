@@ -12,7 +12,7 @@ export default function Footer() {
         </div>
         <Socials className={`${styles.socials} lg:ml-auto`} />
         <a href={"https://arep.co/p/one-love-2025--pre-register--win-1"} className={styles.buy}>
-          <span> buy tickets</span>
+          <span> REGISTER FOR ONE LOVE PRESALE</span>
         </a>
       </nav>
     </footer>

@@ -10,7 +10,7 @@ export default function Footer() {
         <div className={"w-1/2 max-w-40"}>
           <Image className="w-full" width={logo.width} height={logo.height} src={logo} />{" "}
         </div>
-        <p className=" text-center font-mono ml-auto ">
+        <p className=" text-center font-mono lg:ml-auto ">
           Website by{" "}
           <a href="https://www.apped.nz" className="underline text-blue-300">
             Apped

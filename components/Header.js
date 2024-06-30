@@ -60,7 +60,7 @@ export default function Header() {
         <a
           href="https://arep.co/p/one-love-2025--pre-register--win-1"
           className={`${styles.buy} max-lg:hidden`}>
-          <span> buy tickets</span>
+          <span> Pre-REg</span>
         </a>
       </nav>
       <div

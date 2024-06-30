@@ -1,0 +1,15 @@
+.btn {
+  @apply p-4 rounded-10 transition-all uppercase flex justify-center;
+  font-size: clamp(24px, 1.5vw, 30px);
+  line-height: 1;
+  span {
+    @apply inline-flex relative;
+    top: 3px;
+  }
+  &.primary {
+    @apply bg-black text-white hover:bg-mustard hover:text-black;
+  }
+  &.secondary {
+    @apply bg-mustard text-black hover:bg-black hover:text-white;
+  }
+}

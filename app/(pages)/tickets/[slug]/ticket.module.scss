@@ -1,0 +1,13 @@
+.ticket_info {
+  a,
+  b {
+    @apply text-mustard;
+  }
+  ul,
+  p {
+    @apply mb-4;
+  }
+  ul {
+    @apply list-inside list-disc;
+  }
+}

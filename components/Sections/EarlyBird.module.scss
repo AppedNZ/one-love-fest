@@ -1,0 +1,108 @@
+.section {
+  @apply py-8 lg:py-12 xl:py-16 bg-mustard;
+  .inner {
+    @apply grid  gap-5 xl:gap-7 2xl:gap-10 flex-wrap;
+  }
+  .unlock,
+  .pass {
+    flex: 1 1 100%;
+  }
+  .unlock {
+    text-align: center;
+    font-size: clamp(34px, 5.1vw, 94px);
+    align-self: center;
+  }
+  .pass {
+    @apply bg-black p-6 rounded-10 uppercase leading-none flex flex-col justify-between w-full;
+    .head {
+      font-size: calc((calc(99vw - 40px) / var(--chars)) / 0.75);
+    }
+    .earlyBird {
+      @apply w-min;
+      font-size: calc((calc(80vw - 40px) / 11) / 0.75);
+    }
+    .price {
+      @apply text-mustard;
+      font-size: calc((calc(60vw - 40px) / var(--price-chars)) / 0.75);
+    }
+    .caption {
+      text-align: center;
+      color: #84e26f;
+      font-size: calc((calc(90vw - 40px) / var(--caption-chars)) / 0.75);
+    }
+    &:first-of-type {
+      .caption {
+        font-size: calc((calc(70vw - 40px) / var(--caption-chars)) / 0.75);
+      }
+    }
+  }
+  @media (min-width: 768px) {
+    .inner {
+      grid-template-columns: repeat(2, minmax(0%, 1fr));
+    }
+    .unlock,
+    .pass {
+      flex: 1 1 calc(50% - 40px);
+    }
+    .pass {
+      .head {
+        font-size: calc((calc(51vw - 40px) / var(--chars)) / 0.75);
+      }
+      .earlyBird {
+        @apply w-min;
+        font-size: calc((calc(40vw - 40px) / 11) / 0.75);
+      }
+      .price {
+        @apply text-mustard;
+        font-size: calc((calc(31vw - 40px) / var(--price-chars)) / 0.75);
+      }
+      .caption {
+        text-align: center;
+        color: #84e26f;
+        font-size: calc((calc(44vw - 40px) / var(--caption-chars)) / 0.75);
+      }
+      &:first-of-type {
+        .caption {
+          font-size: calc((calc(30vw - 40px) / var(--caption-chars)) / 0.75);
+        }
+      }
+    }
+  }
+
+  @media (min-width: 1440px) {
+    .inner {
+      grid-template-columns: repeat(4, minmax(0%, 1fr));
+    }
+    .unlock,
+    .pass {
+      flex: 1 1 calc(50% - 40px);
+    }
+    .unlock {
+      text-align: left;
+      font-size: clamp(14px, 2.3vw, 44px);
+    }
+    .pass {
+      .head {
+        font-size: clamp(24px, calc((calc(23vw - 40px) / var(--chars)) / 0.75), 38px);
+      }
+      .earlyBird {
+        @apply w-min;
+        font-size: clamp(14px, calc((calc(18vw - 40px) / 11) / 0.75), 36px);
+      }
+      .price {
+        @apply text-mustard;
+        font-size: clamp(36px, calc((calc(13vw - 40px) / var(--price-chars)) / 0.75), 70px);
+      }
+      .caption {
+        text-align: center;
+        color: #84e26f;
+        font-size: clamp(12px, calc((calc(22vw - 40px) / var(--caption-chars)) / 0.75), 58px);
+      }
+      &:first-of-type {
+        .caption {
+          font-size: clamp(12px, calc((calc(13vw) / var(--caption-chars)) / 0.75), 40px);
+        }
+      }
+    }
+  }
+}

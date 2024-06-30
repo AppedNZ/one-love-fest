@@ -1,0 +1,109 @@
+.inner {
+  @apply grid  gap-5 xl:gap-6 flex-wrap mt-5 lg:mt-10;
+}
+.unlock,
+.pass {
+  flex: 1 1 100%;
+}
+.unlock {
+  text-align: left;
+  font-size: clamp(14px, 7.1vw, 94px);
+  align-self: center;
+}
+.pass {
+  @apply bg-carmine p-4 rounded-10 uppercase leading-none flex flex-col justify-between w-full;
+  .head {
+    font-size: calc((calc(99vw - 20px) / var(--chars)) / 0.75);
+  }
+  .earlyBird {
+    @apply w-min;
+    font-size: calc((calc(80vw - 20px) / 11) / 0.75);
+  }
+  .price {
+    @apply text-mustard;
+    font-size: calc((calc(60vw - 20px) / var(--price-chars)) / 0.75);
+  }
+  .caption {
+    text-align: center;
+    color: #84e26f;
+    font-size: calc((calc(100vw - 20px) / var(--caption-chars)) / 0.75);
+  }
+}
+@media (min-width: 768px) {
+  .inner {
+    grid-template-columns: repeat(3, minmax(0%, 1fr));
+  }
+  .unlock,
+  .pass {
+    flex: 1 1 calc(50% - 40px);
+  }
+  .pass {
+    .head {
+      font-size: calc((calc(32vw - 20px) / var(--chars)) / 0.75);
+    }
+    .earlyBird {
+      @apply w-min;
+      font-size: calc((calc(30vw - 20px) / 11) / 0.75);
+    }
+    .price {
+      @apply text-mustard;
+      font-size: calc((calc(19vw - 20px) / var(--price-chars)) / 0.75);
+    }
+    .caption {
+      text-align: center;
+      color: #84e26f;
+      font-size: calc((calc(32vw - 20px) / var(--caption-chars)) / 0.75);
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  .unlock,
+  .pass {
+    flex: 1 1 calc(50% - 40px);
+  }
+
+  .pass {
+    .head {
+      font-size: calc((calc(15.4vw - 40px) / var(--chars)) / 0.75);
+    }
+    .earlyBird {
+      @apply w-min;
+      font-size: calc((calc(15vw - 40px) / 11) / 0.75);
+    }
+    .price {
+      @apply text-mustard;
+      font-size: calc((calc(10vw - 40px) / var(--price-chars)) / 0.75);
+    }
+    .caption {
+      text-align: center;
+      color: #84e26f;
+      font-size: calc((calc(15.5vw - 40px) / var(--caption-chars)) / 0.75);
+    }
+  }
+}
+@media (min-width: 1440px) {
+  .unlock,
+  .pass {
+    flex: 1 1 calc(50% - 40px);
+  }
+
+  .pass {
+    .head {
+      font-size: clamp(12px, calc((calc(15.4vw - 40px) / var(--chars)) / 0.75), 24.5px);
+    }
+    .earlyBird {
+      @apply w-min;
+      font-size: clamp(12px, calc((calc(15vw - 40px) / 11) / 0.75), 24px);
+    }
+    .price {
+      @apply text-mustard;
+      font-size: clamp(24px, calc((calc(10vw - 40px) / var(--price-chars)) / 0.75), 44px);
+    }
+    .caption {
+      text-align: center;
+      color: #84e26f;
+      font-size: clamp(10px, calc((calc(15.5vw - 40px) / var(--caption-chars)) / 0.75), 16px);
+    }
+  }
+}

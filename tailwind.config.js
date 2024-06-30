@@ -7,6 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      borderRadius: {
+        10: "10px",
+      },
       fontSize: {
         40: "2.5rem",
       },
@@ -16,6 +19,8 @@ module.exports = {
         error: "#EE584D",
         mustard: "#F9B20D",
         purp: "#7200FF",
+        carmine: "#DA053F",
+        slime: "#84E26F",
       },
     },
   },

@@ -3,10 +3,10 @@ import styles from "./EarlyBird.module.scss";
 export default function EarlyBirdDiscounts() {
   return (
     <section className={styles.section}>
-      <div
-        style={{ "--caption-chars": "1 st rel. $239 Save $20".length }}
-        className={`wrapper ${styles.inner}`}>
-        <p className={`${styles.unlock} heading text-black`}>& unlock early bird discounts</p>
+      <div style={{ "--caption-chars": "Save $200".length }} className={`wrapper ${styles.inner}`}>
+        <p className={`${styles.unlock} heading text-black`}>
+          Presale access unlocks early bird discounts
+        </p>
         <div
           style={{ "--chars": "GA 2 Day Pass".length }}
           className={`${styles.pass} ${styles.ga}`}>
@@ -17,7 +17,7 @@ export default function EarlyBirdDiscounts() {
               $219
             </p>
           </div>
-          <p className={styles.caption}>1 st rel. $239 Save $20 </p>
+          <p className={styles.caption}>Save $20 </p>
         </div>
         <div className={`${styles.pass} ${styles.vip}`}>
           <p style={{ "--chars": "vip 2 Day Pass".length }} className={styles.head}>
@@ -26,10 +26,10 @@ export default function EarlyBirdDiscounts() {
           <div className="flex items-center justify-between">
             <p className={styles.earlyBird}>early bird</p>
             <p style={{ "--price-chars": "$499".length }} className={styles.price}>
-              $349
+              $329
             </p>
           </div>
-          {/* <p className={styles.caption}>1 st rel. $239 Save $20 </p> */}
+          <p className={styles.caption}>Save $20 </p>
         </div>
         <div className={`${styles.pass} ${styles.vvip}`}>
           <p style={{ "--chars": "vvip 2 Day Pass".length }} className={styles.head}>
@@ -38,10 +38,10 @@ export default function EarlyBirdDiscounts() {
           <div className="flex items-center justify-between">
             <p className={styles.earlyBird}>early bird</p>
             <p style={{ "--price-chars": "$1499".length }} className={styles.price}>
-              $1499
+              $1399
             </p>
           </div>
-          {/* <p className={styles.caption}>1 st rel. $239 Save $20 </p> */}
+          <p className={styles.caption}> Save $100 </p>
         </div>
       </div>
     </section>

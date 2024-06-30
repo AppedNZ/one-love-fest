@@ -23,8 +23,7 @@ export default function page() {
           <p
             style={{ letterSpacing: "0.04em" }}
             className="text-white uppercase text-stroke lg:text-lg  ">
-            Join us at one love earning site for great vibes and a fantastic time , all managed by
-            our super friendly staff team. We can&apos;t wait to see you there!
+            JOIN US AT ONE LOVE 2025 FOR GREAT MUSIC AND UNITY.
           </p>
         </div>
       </section>

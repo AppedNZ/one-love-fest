@@ -35,22 +35,24 @@ export default function PaymentPlansSection() {
           </div>
         </div>
         <div className="w-full flex flex-col gap-4 xl:gap-8 2xl:gap-12 uppercase lg:text-2xl">
-          <h2 className="heading text-mustard uppercase">Payment Plans Options Available</h2>
+          <h2 className="heading text-mustard uppercase">Payment Plan Options Available</h2>
+          <p>We have short and long-term payment plan options to suit all budgets.</p>
           <p>
-            SHORT IN CASH? One love has you covered!
-            <br />
-            <span className="text-mustard ">
-              We offer flexible payment plan options to start your needs!
-            </span>
+            <span className="text-mustard">Long-term easy finance: </span> This option gives you up
+            to 10 weeks to pay off your selected passes to One Love 2025. When selecting this
+            payment option, a $30 administration fee is added to each ticket to secure your
+            purchase. You'll need to keep up to date with your payment schedule to ensure it doesn't
+            cancel out.
           </p>
           <p>
-            <span className="text-mustard">Afterpay:</span> make 4 weekly payments
+            <span className="text-mustard">Afterpay: </span> This option allows customers to buy
+            tickets now and pay over time, making it easier to secure purchases instantly.
           </p>
           <p>
-            <span className="text-mustard">TicketFairy Payment plan: </span> spread your payments
-            over up to 10 weeks
+            <span className="text-mustard">Instant Purchase: </span> sPay your tickets upfront using
+            your debit or credit card now and your job is done.
           </p>
-          <p>*Terms and conditions apply </p>
+
           <Btn
             href={"https://arep.co/p/one-love-2025--pre-register--win-1"}
             as="a"

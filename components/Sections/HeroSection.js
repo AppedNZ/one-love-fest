@@ -4,7 +4,7 @@ import logo from "../../assets/logo-hero.png";
 import Btn from "../Btn";
 export default function HeroSection() {
   return (
-    <section className="relative min-h-svh flex flex-col items-center justify-center py-7 lg:py-10 xl:py-32 2xl:py-40">
+    <section className="relative min-h-svh flex flex-col items-center justify-center py-20  xl:py-32 2xl:py-40">
       <div className="relative m-auto flex flex-col items-center justify-center w-10/12 xl:w-9/12 gap-4 lg:gap-8">
         <Image
           className="pointer-events-none object-cover "
@@ -16,18 +16,134 @@ export default function HeroSection() {
           src={logo}
           alt="pattern"
         />
-        <h2 className="text-stroke text-white uppercase text-center text-[clamp(16px,2.5vw,44px)] leading-none">
-          MAOLI · REBEL SOULJAHZ · J BOOG · FIJI · KATCHAFIRE CORELLA · MAGIC! · 1814 · INNER CIRCLE
-          · STEEL PULSE SPAWNBREEZIE · ADEAZE · HOUSE OF SHEM · HORI SHAW TOMORROW PEOPLE · ARDIJAH
-          · JOSH WAWA · K'NOVA JARO LOCAL · FIA · LOMEZ BROWN · FE JOINT · SUB-TRIBE SON & WATER ·
-          TJ & HURI · LION REZZ · BRUTHA RODZ SWISS & TREE · WAYNO · THREE HOUSES DOWN GENERAL FIYAH
-          · REX ATIRAI · BRADAMON · PIETER T · DEACH SAMSON SQUAD · MIKEY MAYZ · SAMMIELZ · KRISY
-          ERIN CEE BLUE · PEOPLE OF THE PA · ILLUMINGATI · MIRAGE SIANNE · LOPZ & DA RASTAZ
+        <h2 class="text-stroke hidden lg:flex flex-wrap  gap-1 justify-center text-white uppercase text-center text-[clamp(16px,2.1vw,44px)] leading-none">
+          <div className="flex gap-1 justify-center *:min-w-max flex-wrap">
+            <p>MAOLI ·</p>
+            <p>REBEL SOULJAHZ ·</p>
+            <p>J BOOG ·</p>
+            <p>FIJI ·</p>
+            <p>KATCHAFIRE ·</p>
+            <p>CORRELLA</p>
+          </div>
+          <div className="flex gap-1 justify-center *:min-w-max flex-wrap">
+            <p>MAGIC! ·</p>
+            <p>1814 ·</p>
+            <p>INNER CIRCLE ·</p>
+            <p>STEEL PULSE ·</p>
+            <p>SPAWNBREEZIE </p>
+          </div>
+          <div className="flex gap-1 justify-center *:min-w-max flex-wrap">
+            <p>ADEAZE ·</p>
+            <p>HOUSE OF SHEM ·</p>
+            <p>HORI SHAW ·</p>
+            <p>TOMORROW PEOPLE </p>
+          </div>
+          <div className="flex gap-1 justify-center *:min-w-max flex-wrap">
+            <p>ARDIJAH ·</p>
+            <p>JOSH WAWA ·</p>
+            <p>K'NOVA ·</p>
+            <p>JARO LOCAL ·</p>
+            <p>FIA </p>
+          </div>
+          <div className="flex gap-1 justify-center *:min-w-max flex-wrap">
+            <p>LOMEZ BROWN ·</p>
+            <p>FE JOINT ·</p>
+            <p>SUB-TRIBE ·</p>
+            <p>SON & WATER ·</p>
+            <p>TJ & HURI </p>
+          </div>
+          <div className="flex gap-1 justify-center *:min-w-max flex-wrap">
+            <p>LION REZZ ·</p>
+            <p>BRUTHA RODZ ·</p>
+            <p>SWISS & TREE ·</p>
+            <p>WAYNO </p>
+          </div>
+          <div className="flex gap-1 justify-center *:min-w-max flex-wrap">
+            <p>THREE HOUSES DOWN ·</p>
+            <p>GENERAL FIYAH ·</p>
+            <p>REX ATIRAI </p>
+          </div>
+          <div className="flex gap-1 justify-center *:min-w-max flex-wrap">
+            <p>BRADAMON ·</p>
+            <p>PIETER T ·</p>
+            <p>DEACH ·</p>
+            <p>SAMSON SQUAD ·</p>
+            <p>MIKEY MAYZ </p>
+          </div>
+          <div className="flex gap-1 justify-center *:min-w-max flex-wrap">
+            <p>SAMMIELZ ·</p>
+            <p>KRISY ·</p>
+            <p>ERIN CEE BLUE ·</p>
+            <p>PEOPLE OF THE PA </p>
+          </div>
+          <div className="flex gap-1 justify-center *:min-w-max flex-wrap">
+            <p>ILLUMINGATI ·</p>
+            <p>MIRAGE ·</p>
+            <p>SIANNE ·</p>
+            <p>LOPZ & DA RASTAZ</p>
+          </div>
         </h2>
+        <h2 class="text-stroke flex lg:hidden flex-wrap  gap-1 justify-center text-white uppercase text-center text-[clamp(16px,2.5vw,44px)] leading-none">
+          <p>MAOLI ·</p>
+          <p>REBEL SOULJAHZ ·</p>
+          <p>J BOOG ·</p>
+          <p>FIJI ·</p>
+          <p>KATCHAFIRE ·</p>
+          <p>CORRELLA</p>
+
+          <p>MAGIC! ·</p>
+          <p>1814 ·</p>
+          <p>INNER CIRCLE ·</p>
+          <p>STEEL PULSE ·</p>
+          <p>SPAWNBREEZIE </p>
+
+          <p>ADEAZE ·</p>
+          <p>HOUSE OF SHEM ·</p>
+          <p>HORI SHAW ·</p>
+          <p>TOMORROW PEOPLE </p>
+
+          <p>ARDIJAH ·</p>
+          <p>JOSH WAWA ·</p>
+          <p>K'NOVA ·</p>
+          <p>JARO LOCAL ·</p>
+          <p>FIA </p>
+
+          <p>LOMEZ BROWN ·</p>
+          <p>FE JOINT ·</p>
+          <p>SUB-TRIBE ·</p>
+          <p>SON & WATER ·</p>
+          <p>TJ & HURI </p>
+
+          <p>LION REZZ ·</p>
+          <p>BRUTHA RODZ ·</p>
+          <p>SWISS & TREE ·</p>
+          <p>WAYNO </p>
+
+          <p>THREE HOUSES DOWN ·</p>
+          <p>GENERAL FIYAH ·</p>
+          <p>REX ATIRAI </p>
+
+          <p>BRADAMON ·</p>
+          <p>PIETER T ·</p>
+          <p>DEACH ·</p>
+          <p>SAMSON SQUAD ·</p>
+          <p>MIKEY MAYZ </p>
+
+          <p>SAMMIELZ ·</p>
+          <p>KRISY ·</p>
+          <p>ERIN CEE BLUE ·</p>
+          <p>PEOPLE OF THE PA </p>
+
+          <p>ILLUMINGATI ·</p>
+          <p>MIRAGE ·</p>
+          <p>SIANNE ·</p>
+          <p>LOPZ & DA RASTAZ</p>
+        </h2>
+
         <Btn
           href={"https://arep.co/p/one-love-2025--pre-register--win-1"}
           className={"max-w-max mx-auto"}>
-          Pre register for tickets
+          REGISTER FOR ONE LOVE PRE-SALE
         </Btn>
       </div>
       <div className="-z-[1] w-full h-full absolute top-0 left-0">

@@ -7,10 +7,19 @@ export default function FreeTee() {
     <section className="bg-mustard py-5 pb-10 lg:pb-14 xl:pb-20">
       <div className="wrapper p-5  relative">
         <div className="relative   w-full p-10 lg:p-[4%] ">
-          <div className="w-full flex flex-col  lg:grid lg:grid-cols-[25vw,1fr,0.3fr,max-content] items-center  justify-between  relative z-10">
-            <p className="lg:w-full text-[clamp(18px,11.5vw,80px)] max-lg:text-center lg:text-[clamp(18px,3.5vw,80px)] text-stroke uppercase leading-none">
-              A free one <br className="max-lg:hidden" /> love tee
-            </p>
+          <div className="w-full flex flex-col  lg:grid lg:grid-cols-[max-content,1fr,0.3fr,25vw] items-center  justify-between  relative z-10">
+            <div className="w-full  flex justify-center lg:justify-end">
+              <Btn
+                style={{ color: "white" }}
+                as="a"
+                href="https://arep.co/p/one-love-2025--pre-register--win-1"
+                variant="secondary"
+                className={
+                  "text-balance text-center max-w-[460px] max-lg:text-4xl lg:max-w-[265px] w-full flex-shrink-0"
+                }>
+                register for <br className="max-lg:hidden" /> one love
+              </Btn>
+            </div>
             <div className="w-full  relative">
               <Image
                 width={tshirt.width}
@@ -31,22 +40,15 @@ export default function FreeTee() {
               <Image
                 width={freeshirt.width}
                 height={freeshirt.height}
-                className=" translate-y-[15%] -translate-x-[55%]"
+                className=" translate-y-[15%] -translate-x-[15%]"
                 src={freeshirt}
                 alt="Free Tshirt"
               />
             </div>
-            <div className="w-full  flex justify-center lg:justify-end">
-              <Btn
-                as="a"
-                href="https://arep.co/p/one-love-2025--pre-register--win-1"
-                variant="secondary"
-                className={
-                  "text-balance text-center max-w-[460px] max-lg:text-4xl lg:max-w-[265px] w-full flex-shrink-0"
-                }>
-                pre register <br className="max-lg:hidden" /> for tickets
-              </Btn>
-            </div>
+            <p className="lg:w-full text-[clamp(18px,4.5vw,80px)] max-lg:text-center lg:text-[clamp(18px,1.5vw,80px)] text-stroke uppercase leading-none">
+              Everyone who purchases tickets during the presale will be able to access a free One
+              Love t-shirt.
+            </p>
           </div>
           <Image
             fill

@@ -12,7 +12,7 @@ export default function FestivalHighlights() {
     <section className="relative py-10 lg:py-20 2xl:py-40">
       <div className="wrapper relative z-10 flex flex-col gap-8 lg:gap-12 xl:gap-16">
         <h3 ref={ref} className="heading text-white uppercase text-center">
-          One love festiVals highlights
+          ONE LOVE FESTIVAL HIGHLIGHTS
         </h3>
         <div className="w-full overflow-hidden border-4 border-white rounded-10">
           <PromoVideoWrapper imgSrc={"/crowd-2.jpeg"} setShow={setShow} inView={inView} />

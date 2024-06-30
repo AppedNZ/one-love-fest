@@ -48,7 +48,7 @@ export default async function Tab({ params }) {
       <a
         href={"https://arep.co/p/one-love-2025--pre-register--win-1"}
         className={"text-center max-w-max text-white px-8 py-4 bg-mustard rounded-10 uppercase"}>
-        Pre Reg
+        REGISTER FOR EARLY BIRD PRICES
       </a>
     </div>
   );

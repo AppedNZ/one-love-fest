@@ -1,13 +1,17 @@
 "use client";
 import { PlayIcon } from "@heroicons/react/24/solid";
 import { motion } from "framer-motion";
-export default function PromoVideoWrapper({ imgSrc, setShow, inView }) {
+export default function PromoVideoWrapper({ absolute = "false", imgSrc, setShow, inView }) {
   return (
-    <div className="w-full pb-[35%] xl:pb-[28%] relative">
+    <div className={`w-full ${absolute ? " pb-[35%] xl:pb-[28%]" : ""} relative`}>
       <motion.img
         initial={{ opacity: 0 }}
         animate={inView ? { opacity: 1 } : { opacity: 0 }}
-        className="object-cover w-full h-full top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 object-[50%,70%] absolute transition-all group-hover:scale-105"
+        className={`object-cover w-full transition-all  ${
+          absolute
+            ? "h-full top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 object-[50%,55%] absolute group-hover:scale-105"
+            : ""
+        }`}
         loading="lazy"
         src={imgSrc ?? "/promo-video-preview.jpeg"}
       />

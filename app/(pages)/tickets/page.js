@@ -1,5 +1,5 @@
 "use client";
-import MobileLinks from "@/components/UI/MobileLinks";
+import MobileLinks from "@/components/MobileLinks";
 import { motion } from "framer-motion";
 
 export default function Tickets() {

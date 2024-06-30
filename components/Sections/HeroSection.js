@@ -153,7 +153,7 @@ export default function HeroSection() {
             <p>SAMMIELZ </p>
           </div>
           <div className="flex gap-1">
-            <p>KRISY Erin·</p>
+            <p>KRISY Erin ·</p>
             <p>CEE BLUE ·</p>
             <p>PEOPLE OF THE PA </p>
           </div>

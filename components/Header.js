@@ -60,7 +60,7 @@ export default function Header() {
         <a
           href="https://arep.co/p/one-love-2025--pre-register--win-1"
           className={`${styles.buy} max-lg:hidden`}>
-          <span> Pre-REg</span>
+          <span> Presale access</span>
         </a>
       </nav>
       <div
@@ -77,13 +77,13 @@ export default function Header() {
           <Link
             href={"/buy-tickets"}
             className="w-max p-4 rounded-md bg-pink leading-none font-bold text-white uppercase transition-all hover:text-pink hover:bg-white">
-            <span> Pre-REg</span>
+            <span>Presale access</span>
           </Link>
         ) : (
           <a
             href={"https://arep.co/p/one-love-2025--pre-register--win-1"}
-            className={`${styles.buy} uppercase w-full text-center text-xl`}>
-            <span className="relative top-0.5">pre - registration</span>
+            className={`${styles.buy} uppercase  text-center text-xl w-max px-4 h-auto`}>
+            <span className="relative top-2">Presale access</span>
           </a>
         )}
         <Socials />

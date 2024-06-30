@@ -7,7 +7,7 @@ export default function PromoVideoWrapper({ imgSrc, setShow, inView }) {
       <motion.img
         initial={{ opacity: 0 }}
         animate={inView ? { opacity: 1 } : { opacity: 0 }}
-        className="object-cover w-full h-full top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 absolute transition-all group-hover:scale-105"
+        className="object-cover w-full h-full top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 object-[50%,70%] absolute transition-all group-hover:scale-105"
         loading="lazy"
         src={imgSrc ?? "/promo-video-preview.jpeg"}
       />

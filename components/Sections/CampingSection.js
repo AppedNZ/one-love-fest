@@ -11,13 +11,13 @@ export default function CampingSection() {
           <p> Need accommodation for One Love weekend? We’ve got you covered!</p>
           <p>
             One Love has Camping, Glamping and Village accommodation options available, providing
-            whānau with a full One Love experience and plenty of entertainment.
+            whanau with a full One Love experience and plenty of entertainment.
           </p>
           <p>
             Spend the day at One Love and finish the night back on site, where you can carry on the
             party, with after parties and DJ sets scheduled during the weekend.
           </p>
-          <Btn as="a" href={CAMPING} variant="secondary" className={"max-w-[580px]"}>
+          <Btn as="a" href={CAMPING} variant="secondary" className={"max-w-[580px] text-center"}>
             ONE LOVE CAMPING & GLAMPING
           </Btn>
         </div>

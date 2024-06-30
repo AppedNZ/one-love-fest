@@ -32,7 +32,7 @@ export default function Header() {
       }`}>
       <nav className="wrapper flex justify-between items-center uppercase gap-4">
         <ul className={styles.links}>
-          {header_links.map((l) => (
+          {header_links.slice(1, header_links.length).map((l) => (
             <Link key={l.url} href={l.url}>
               {l.label}
             </Link>

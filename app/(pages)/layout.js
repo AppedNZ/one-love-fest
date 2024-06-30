@@ -11,8 +11,9 @@ export default function RootLayout({ children }) {
       <div className="opacity-0 pointer-events-none">
         <Header />
       </div>
+
       <Image
-        className="pointer-events-none w-screen h-screen fixed z-[-1]  object-cover top-0 left-0 "
+        className="pointer-events-none w-screen h-screen fixed z-[-1]  object-cover top-0 left-0  gradient"
         sizes="100vw"
         width={bg.width}
         height={bg.height}

@@ -7,7 +7,7 @@ export default function HeroSection() {
     <section className="relative min-h-svh flex flex-col items-center justify-center py-7 lg:py-10 xl:py-32 2xl:py-40">
       <div className="relative m-auto flex flex-col items-center justify-center w-10/12 xl:w-9/12 gap-4 lg:gap-8">
         <Image
-          className="pointer-events-none object-cover"
+          className="pointer-events-none object-cover gradient"
           priority
           loading="eager"
           quality={100}

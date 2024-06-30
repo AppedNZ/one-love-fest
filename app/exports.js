@@ -1,6 +1,7 @@
 import { ABOUT, CAMPING, CONTACT, FAQ, SITEMAP, TICKETS } from "./constants";
 
 export const header_links = [
+  { url: "/", label: "Home" },
   { url: ABOUT, label: "About" },
   { url: TICKETS, label: "Tickets" },
   { url: CAMPING, label: "Camping" },

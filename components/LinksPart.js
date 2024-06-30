@@ -10,7 +10,7 @@ export default function LinksPart({ desktop = false, className = "", onClick }) 
 
   return (
     <>
-      {header_links.slice(desktop ? 1 : 0, header_links.length).map((link, i) => (
+      {header_links.slice(0, header_links.length).map((link, i) => (
         <li key={link.url}>
           <Link
             className={`${className} ${

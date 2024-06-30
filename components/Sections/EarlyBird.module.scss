@@ -30,6 +30,11 @@
       color: #84e26f;
       font-size: calc((calc(90vw - 40px) / var(--caption-chars)) / 0.75);
     }
+    &:first-of-type {
+      .caption {
+        font-size: calc((calc(70vw - 40px) / var(--caption-chars)) / 0.75);
+      }
+    }
   }
   @media (min-width: 768px) {
     .inner {
@@ -54,7 +59,12 @@
       .caption {
         text-align: center;
         color: #84e26f;
-        font-size: calc((calc(54vw - 40px) / var(--caption-chars)) / 0.75);
+        font-size: calc((calc(44vw - 40px) / var(--caption-chars)) / 0.75);
+      }
+      &:first-of-type {
+        .caption {
+          font-size: calc((calc(30vw - 40px) / var(--caption-chars)) / 0.75);
+        }
       }
     }
   }
@@ -86,7 +96,12 @@
       .caption {
         text-align: center;
         color: #84e26f;
-        font-size: clamp(12px, calc((calc(24vw - 40px) / var(--caption-chars)) / 0.75), 25px);
+        font-size: clamp(12px, calc((calc(22vw - 40px) / var(--caption-chars)) / 0.75), 58px);
+      }
+      &:first-of-type {
+        .caption {
+          font-size: clamp(12px, calc((calc(13vw) / var(--caption-chars)) / 0.75), 40px);
+        }
       }
     }
   }

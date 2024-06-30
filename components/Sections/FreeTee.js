@@ -4,7 +4,7 @@ import tshirt from "../../assets/t-shirt.png";
 import Btn from "../Btn";
 export default function FreeTee() {
   return (
-    <section className="bg-mustard py-5 pb-10 lg:pb-14 xl:pb-20">
+    <section className="bg-mustard py-5 pt-10 lg:pt-20 xl:pt-28 ">
       <div className="wrapper p-5  relative">
         <div className="relative   w-full p-10 lg:p-[4%] ">
           <div className="w-full flex flex-col  lg:grid lg:grid-cols-[max-content,1fr,0.3fr,25vw] items-center  justify-between  relative z-10">

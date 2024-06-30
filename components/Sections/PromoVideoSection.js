@@ -10,7 +10,7 @@ export default function PromoVideoSection() {
   return (
     <section className="pt-10 lg:pt-20 xl:pt-28 bg-mustard">
       <div className="wrapper flex flex-col gap-5 lg:gap-10">
-        <h2 className="heading  text-black text-center">Promo movie one love 2025</h2>
+        <h2 className="heading  text-black text-center">ONE LOVE 2025 - VIDEO ANNOUNCEMENT</h2>
         <div ref={ref} className="w-full bg-black rounded-10 overflow-hidden">
           <PromoVideoWrapper setShow={setShow} inView={inView} />
         </div>

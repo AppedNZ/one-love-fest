@@ -3,7 +3,7 @@ import Script from "next/script";
 import "./globals.css";
 export const metadata = {
   title: "One Love '25",
-  description: "One Love '25 - Katahi Aroha reggae festival",
+  description: "One Love '25 - Kotahi Aroha reggae festival",
 };
 
 export default function RootLayout({ children }) {

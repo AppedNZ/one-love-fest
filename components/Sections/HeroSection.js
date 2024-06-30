@@ -24,7 +24,11 @@ export default function HeroSection() {
           · REX ATIRAI · BRADAMON · PIETER T · DEACH SAMSON SQUAD · MIKEY MAYZ · SAMMIELZ · KRISY
           ERIN CEE BLUE · PEOPLE OF THE PA · ILLUMINGATI · MIRAGE SIANNE · LOPZ & DA RASTAZ
         </h2>
-        <Btn className={"max-w-max mx-auto"}>Pre register for tickets</Btn>
+        <Btn
+          href={"https://arep.co/p/one-love-2025--pre-register--win-1"}
+          className={"max-w-max mx-auto"}>
+          Pre register for tickets
+        </Btn>
       </div>
       <div className="-z-[1] w-full h-full absolute top-0 left-0">
         <Image

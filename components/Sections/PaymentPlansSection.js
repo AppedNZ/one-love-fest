@@ -51,7 +51,11 @@ export default function PaymentPlansSection() {
             over up to 10 weeks
           </p>
           <p>*Terms and conditions apply </p>
-          <Btn as="a" variant="secondary" className={"max-w-[600px] text-center"}>
+          <Btn
+            href={"https://arep.co/p/one-love-2025--pre-register--win-1"}
+            as="a"
+            variant="secondary"
+            className={"max-w-[600px] text-center"}>
             buy tickets with payment plan
           </Btn>
         </div>

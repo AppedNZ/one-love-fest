@@ -1,5 +1,5 @@
 import Image from "next/image";
-import styles from "./CampingSection.module.scss";
+// import styles from "./CampingSection.module.scss";
 export default function CampingSection() {
   return (
     <section className="bg-black py-10 lg:py-20 2xl:py-40">
@@ -34,7 +34,7 @@ export default function CampingSection() {
               alt="Camping"
             />
           </div>
-          <div
+          {/* <div
             style={{ "--caption-chars": "1 st rel. $239 Save $20".length }}
             className={styles.inner}>
             <div
@@ -73,7 +73,7 @@ export default function CampingSection() {
               </div>
               <p className={styles.caption}>1 st rel. $239 Save $20 </p>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

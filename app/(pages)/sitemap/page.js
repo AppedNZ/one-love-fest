@@ -2,10 +2,10 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 
-export default function FAQ() {
+export default function Sitemap() {
   return (
     <motion.div
-      key="faq"
+      key="sitemap"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}

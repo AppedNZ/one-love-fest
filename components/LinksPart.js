@@ -16,7 +16,7 @@ export default function LinksPart({ desktop = false, className = "", onClick }) 
             className={`${className} ${
               i + 1 === header_links.length ? "border-none" : ""
             } flex items-center justify-between ${
-              link.url.includes(handle) ? "text-mustard bg-black" : ""
+              link.url.includes(handle) ? "text-mustard lg:bg-black" : ""
             }`}
             onClick={onClick}
             href={link.url}>

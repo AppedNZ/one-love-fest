@@ -8,12 +8,12 @@ export default function FAQ() {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
-      className="w-full grid   gap-5 xl:gap-10">
-      <div className="w-full bg-black rounded-10 flex flex-col gap-5 p-4 2xl:p-8   uppercase  text-white">
-        <h5 className="text-3xl 2xl:text-6xl  ">Get Support</h5>
+      className="w-full  flex  flex-col h-2/3 flex-grow overflow-hidden bg-black rounded-10  gap-5 p-4 2xl:p-8   text-black ">
+      <div className="flex flex-col flex-grow h-full ">
+        <h5 className="text-3xl 2xl:text-6xl text-white ">Get Support</h5>
 
         <div className="flex flex-col h-1/2 flex-grow  w-full">
-          <div className=" w-full  border-b border-white/20 flex-grow flex flex-col items-start justify-center gap-2 max-lg:py-4">
+          <div className=" w-full  border-b border-white/20 flex-grow flex flex-col items-start justify-center gap-2 max-lg:py-4 max-h-32">
             <p className=" text-mustard text-left text-xl 2xl:text-3xl">
               General Enquiries Vendor and Stall holders
             </p>
@@ -25,7 +25,7 @@ export default function FAQ() {
               </a>
             </p>
           </div>
-          <div className=" w-full  border-b border-white/20 flex-grow flex flex-col items-start justify-center gap-2 max-lg:py-4">
+          <div className=" w-full  border-b border-white/20 flex-grow flex flex-col items-start justify-center gap-2 max-lg:py-4 max-h-32">
             <p className=" text-mustard text-left text-xl 2xl:text-3xl">Vendor Enquiries:</p>
             <p className="text-md 2xl:text-2xl">
               <a
@@ -35,7 +35,7 @@ export default function FAQ() {
               </a>
             </p>
           </div>
-          <div className=" w-full   flex-grow flex flex-col items-start justify-center gap-2 max-lg:py-4">
+          <div className=" w-full   flex-grow flex flex-col items-start justify-center gap-2 max-lg:py-4 max-h-32">
             <p className=" text-mustard text-left text-xl 2xl:text-3xl">
               Media & Sponsorship: Kristin
             </p>

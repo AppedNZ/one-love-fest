@@ -20,6 +20,7 @@ module.exports = {
         mustard: "#F9B20D",
         purp: "#7200FF",
         carmine: "#DA053F",
+        slime: "#84E26F",
       },
     },
   },

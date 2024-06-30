@@ -46,7 +46,7 @@ export default async function Tab({ params }) {
       <h5 className="text-3xl uppercase text-pink font-bold  mb-5 text-center">{heading}</h5>
       <div className={styles.ticket_info}>{documentToReactComponents(ticket_Info, options)}</div>
       <a
-        href="/"
+        href={"https://arep.co/p/one-love-2025--pre-register--win-1"}
         className={"text-center max-w-max text-white px-8 py-4 bg-mustard rounded-10 uppercase"}>
         Pre Reg
       </a>

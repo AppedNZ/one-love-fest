@@ -37,15 +37,15 @@ export default function FAQList({ list }) {
       className="w-full flex flex-col lg:h-full lg:flex-grow  bg-black rounded-10 p-4 2xl:p-8 ">
       {list &&
         list
-          ?.sort((a, b) => a.fields.id - b.fields.id)
+          ?.sort((a, b) => a.fields.order - b.fields.order)
           .map(({ fields }) => (
             <FaqItem
               key={fields.id}
               question={fields.question}
               handleOpen={() => {
-                handleOpen(fields.id);
+                handleOpen(fields.order);
               }}
-              open={openId === fields.id}>
+              open={openId === fields.order}>
               {documentToReactComponents(fields.answer, options)}
             </FaqItem>
           ))}

@@ -13,7 +13,7 @@ const tabs = [
     label: "VIP",
   },
   {
-    href: "vvip",
+    href: "wip",
     label: "Platinum VVIP",
   },
 
@@ -31,7 +31,7 @@ export default function Tabs() {
           triggerEl={
             <button className="w-full  p-4 bg-black rounded-10 flex justify-between items-center gap-2">
               {tabs.find((tab) => pathname.endsWith(tab.href))?.label}
-              <ChevronDownIcon className="rotate-0" />
+              <ChevronDownIcon className="rotate-0 w-4" />
             </button>
           }>
           <div className="flex flex-col  py-2 flex-wrap bg-black">

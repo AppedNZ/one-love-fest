@@ -4,7 +4,7 @@ import logo from "../../assets/logo-hero.png";
 import Btn from "../Btn";
 export default function HeroSection() {
   return (
-    <section className="relative min-h-svh flex flex-col items-center justify-center py-7 lg:py-10 xl:py-14 2xl:py-40">
+    <section className="relative min-h-svh flex flex-col items-center justify-center py-7 lg:py-10 xl:py-32 2xl:py-40">
       <div className="relative m-auto flex flex-col items-center justify-center w-10/12 xl:w-9/12 gap-4 lg:gap-8">
         <Image
           className="pointer-events-none object-cover"

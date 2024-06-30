@@ -4,7 +4,8 @@ const links = {
   CAMPING: "/camping",
   PAYMENT_PLAN: "/tickets/playment-plan",
   FAQ: "/faq",
+  NEWS: "/news",
   CONTACT: "/contact",
   SITEMAP: "/sitemap",
 };
-export const { ABOUT, TICKETS, CAMPING, PAYMENT_PLAN, FAQ, CONTACT, SITEMAP } = links;
+export const { ABOUT, TICKETS, CAMPING, PAYMENT_PLAN, FAQ, CONTACT, SITEMAP, NEWS } = links;

@@ -9,7 +9,7 @@ export default function Camping() {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
       className="w-full  h-auto lg:h-full lg:flex-grow overflow-hidden grid xl:grid-cols-2  bg-black rounded-10  gap-5 p-4 2xl:p-8   text-black ">
-      <div className="w-full bg-carmine rounded-10 flex flex-col gap-5 p-4 2xl:p-8 lg:items-center  text-black ">
+      <div className="w-full bg-mustard rounded-10 flex flex-col gap-5 p-4 2xl:p-8 lg:items-center  text-black ">
         <h5 className="text-pink font-black text-3xl 2xl:text-6xl  uppercase border-black/20 pb-2">
           Camping
         </h5>
@@ -33,8 +33,9 @@ export default function Camping() {
           </li>
         </ul>
         <p>Camping Pricing</p>
+        <p>TBA</p>
       </div>
-      <div className="w-full bg-slime rounded-10 flex flex-col gap-5 p-4 2xl:p-8 lg:items-center text-black">
+      <div className="w-full bg-mustard rounded-10 flex flex-col gap-5 p-4 2xl:p-8 lg:items-center text-black">
         <h5 className="text-pink font-black text-3xl 2xl:text-6xl uppercase border-black/20 pb-2">
           Glamping
         </h5>
@@ -60,6 +61,7 @@ export default function Camping() {
           <li>* Buses to transport you to and from the festival. Times to be specified. </li>
         </ul>
         <p> Glamping Pricing</p>
+        <p>TBA</p>
       </div>
     </motion.div>
   );

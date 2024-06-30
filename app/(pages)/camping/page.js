@@ -8,8 +8,8 @@ export default function Camping() {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
-      className="w-full  h-auto lg:h-full lg:flex-grow overflow-hidden grid xl:grid-cols-2  bg-black rounded-10  gap-5 p-4 2xl:p-8   text-black ">
-      <div className="w-full bg-mustard rounded-10 flex flex-col gap-5 p-4 2xl:p-8 lg:items-center  text-black ">
+      className="w-full  h-auto lg:h-full lg:flex-grow overflow-hidden grid xl:grid-cols-2   rounded-10  gap-5  text-black ">
+      <div className="w-full bg-black rounded-10 flex flex-col gap-5 p-4 2xl:p-8 lg:items-center  text-white ">
         <h5 className="text-pink font-black text-3xl 2xl:text-6xl  uppercase border-black/20 pb-2">
           Camping
         </h5>

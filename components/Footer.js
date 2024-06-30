@@ -10,10 +10,13 @@ export default function Footer() {
         <div className={"w-1/2 max-w-40"}>
           <Image className="w-full" width={logo.width} height={logo.height} src={logo} />{" "}
         </div>
-        <p className=" text-center font-mono ">
-          Website by <a className="underline text-blue-300">Apped</a>
+        <p className=" text-center font-mono ml-auto ">
+          Website by{" "}
+          <a href="https://www.apped.nz" className="underline text-blue-300">
+            Apped
+          </a>
         </p>
-        <Socials className={`${styles.socials} lg:ml-auto`} />
+        <Socials className={`${styles.socials} `} />
         <a
           style={{ height: "auto" }}
           href={"https://arep.co/p/one-love-2025--pre-register--win-1"}

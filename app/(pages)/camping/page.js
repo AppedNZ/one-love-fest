@@ -50,7 +50,7 @@ export default function Camping() {
           <p>
             BYO Camping: $99 per person <br />
             <span className="text-sm">
-              *Prices will be discounted for 48 hours during the pre-sale on July 10 & 11, 2024.
+              *Prices will be discounted for 48 hours during the pre-sale on July 9 & 10, 2024.
             </span>
           </p>
         </motion.div>

@@ -19,8 +19,11 @@
     @apply bg-carmine py-1 lg:py-3 shadow-lg;
   }
   &.home {
+    .logo {
+      @apply block lg:hidden;
+    }
     .links {
-      display: flex;
+      @apply lg:flex;
     }
   }
   .links {

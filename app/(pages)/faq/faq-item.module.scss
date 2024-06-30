@@ -1,0 +1,25 @@
+.row {
+  @apply w-full  text-white text-xl flex flex-col cursor-pointer py-6 border-b border-black/20 last:border-black/0;
+  will-change: height;
+  .question {
+    @apply w-full flex items-center justify-between  uppercase font-bold gap-5;
+    font-size: 32px;
+    line-height: 1;
+  }
+  &.open {
+    .answer {
+      transform: scaleY(1);
+    }
+  }
+  .answer {
+    @apply overflow-hidden  h-auto relative;
+    transition: all 0.5s;
+    will-change: max-height;
+    ul {
+      @apply list-inside list-disc;
+    }
+    a {
+      @apply text-mustard underline;
+    }
+  }
+}

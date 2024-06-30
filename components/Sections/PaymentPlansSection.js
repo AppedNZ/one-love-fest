@@ -51,7 +51,7 @@ export default function PaymentPlansSection() {
             over up to 10 weeks
           </p>
           <p>*Terms and conditions apply </p>
-          <Btn as="a" variant="secondary" className={"max-w-[600px text-center"}>
+          <Btn as="a" variant="secondary" className={"max-w-[600px] text-center"}>
             buy tickets with payment plan
           </Btn>
         </div>

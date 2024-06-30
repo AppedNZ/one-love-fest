@@ -1,5 +1,5 @@
 .header {
-  @apply absolute top-0 left-0  w-full z-30  py-2 lg:py-3 xl:py-5 2xl:py-8;
+  @apply static top-0 left-0  w-full z-30  py-2 lg:py-3 xl:py-5 2xl:py-8;
   transition: all 0.3s;
   &.home {
     @apply fixed;
@@ -13,8 +13,13 @@
   &.home.scrolled {
     @apply bg-carmine py-1 lg:py-3 shadow-lg;
   }
+  &.home {
+    .links {
+      display: flex;
+    }
+  }
   .links {
-    @apply flex w-1/2 2xl:w-2/3  gap-2 justify-between max-xl:hidden;
+    @apply hidden w-1/2 2xl:w-2/3  gap-2 justify-between max-xl:hidden;
     max-width: 928px;
     a {
       @apply hover:text-mustard;
@@ -27,6 +32,11 @@
         rgb(0, 0, 0) 1.92034px -0.558831px 0px;
       font-size: clamp(14px, 1.5vw, 26px);
       line-height: 1;
+    }
+  }
+  &:not(.home) {
+    .socials {
+      order: -1;
     }
   }
   .socials {

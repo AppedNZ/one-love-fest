@@ -1,15 +1,17 @@
-import Footer from "../components/Footer";
-import CampingSection from "../components/Sections/CampingSection";
-import EarlyBirdDiscounts from "../components/Sections/EarlyBirdDiscounts";
-import FestivalHighlights from "../components/Sections/FestivalHighlights";
-import FreeTee from "../components/Sections/FreeTee";
-import HeroSection from "../components/Sections/HeroSection";
-import PaymentPlansSection from "../components/Sections/PaymentPlansSection";
-import PromoVideoSection from "../components/Sections/PromoVideoSection";
+import Footer from "@/components/Footer";
+import Header from "@/components/Header";
+import CampingSection from "@/components/Sections/CampingSection";
+import EarlyBirdDiscounts from "@/components/Sections/EarlyBirdDiscounts";
+import FestivalHighlights from "@/components/Sections/FestivalHighlights";
+import FreeTee from "@/components/Sections/FreeTee";
+import HeroSection from "@/components/Sections/HeroSection";
+import PaymentPlansSection from "@/components/Sections/PaymentPlansSection";
+import PromoVideoSection from "@/components/Sections/PromoVideoSection";
 
 export default function page() {
   return (
     <>
+      <Header />
       <HeroSection />
       <PromoVideoSection />
       <EarlyBirdDiscounts />

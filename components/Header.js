@@ -37,11 +37,11 @@ export default function Header() {
             </Link>
           ))}
         </ul>
-        <div className={styles.logo}>
+        <Link href={"/"} className={styles.logo}>
           <Image className="w-full" width={logo.width} height={logo.height} src={logo} />{" "}
-        </div>
+        </Link>
         <Socials className={styles.socials} />
-        <a href="/" className={styles.buy}>
+        <a href="https://arep.co/p/one-love-2025--pre-register--win-1" className={styles.buy}>
           <span> buy tickets</span>
         </a>
       </nav>

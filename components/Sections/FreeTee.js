@@ -39,6 +39,7 @@ export default function FreeTee() {
             <div className="w-full  flex justify-center lg:justify-end">
               <Btn
                 as="a"
+                href="https://arep.co/p/one-love-2025--pre-register--win-1"
                 variant="secondary"
                 className={
                   "text-balance text-center max-w-[460px] max-lg:text-4xl lg:max-w-[265px] w-full flex-shrink-0"

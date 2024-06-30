@@ -1,5 +1,3 @@
-import "./globals.css";
-
 export const metadata = {
   title: "One Love '25",
   description: "One Love '25 - Katahi Aroha reggae festival",

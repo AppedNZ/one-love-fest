@@ -15,9 +15,9 @@ export default function FreeTee() {
                 href="https://arep.co/p/one-love-2025--pre-register--win-1"
                 variant="secondary"
                 className={
-                  "text-balance text-center max-w-[460px] max-lg:text-4xl lg:max-w-[265px] w-full flex-shrink-0"
+                  "text-balance text-center max-w-[490px] max-lg:text-4xl lg:max-w-[345px] w-full flex-shrink-0"
                 }>
-                register for <br className="max-lg:hidden" /> one love
+                register for one <br className="max-lg:hidden" /> love presale
               </Btn>
             </div>
             <div className="w-full  relative">
@@ -45,9 +45,8 @@ export default function FreeTee() {
                 alt="Free Tshirt"
               />
             </div>
-            <p className="lg:w-full text-[clamp(18px,4.5vw,80px)] max-lg:text-center lg:text-[clamp(18px,1.5vw,80px)] text-stroke uppercase leading-none">
-              Everyone who purchases tickets during the presale will be able to access a free One
-              Love t-shirt.
+            <p className="lg:w-full text-[clamp(18px,4.5vw,80px)] text-center lg:text-[clamp(18px,1.5vw,80px)] text-stroke uppercase leading-none">
+              Everyone who purchases presale tickets can get a free One Love t-shirt
             </p>
           </div>
           <Image

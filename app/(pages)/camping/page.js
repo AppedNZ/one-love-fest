@@ -74,7 +74,7 @@ export default function Camping() {
             </li>
             <li>* ou will need to bring your own pillow, sleeping bag, blankets and linen. </li>
           </ul>
-          Two-Person stay: $370. Three-Person stay: $330.
+          Two-Person stay: $370 per person. Three-Person stay: $330 per person.
         </motion.div>
       )}
       {currentTab === "glamping" && (
@@ -113,8 +113,8 @@ export default function Camping() {
           </ul>
           <p> Glamping Pricing:</p>
           <ul>
-            <li> Two-Person Glamping Package: $650</li>
-            <li>Four-Person Glamping Package: $530</li>
+            <li> Two-Person Glamping Package: $650 per person</li>
+            <li>Four-Person Glamping Package: $530 per person</li>
           </ul>
         </motion.div>
       )}

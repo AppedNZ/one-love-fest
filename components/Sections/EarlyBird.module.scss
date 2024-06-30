@@ -28,7 +28,7 @@
     .caption {
       text-align: center;
       color: #84e26f;
-      font-size: calc((calc(100vw - 40px) / var(--caption-chars)) / 0.75);
+      font-size: calc((calc(90vw - 40px) / var(--caption-chars)) / 0.75);
     }
   }
   @media (min-width: 768px) {

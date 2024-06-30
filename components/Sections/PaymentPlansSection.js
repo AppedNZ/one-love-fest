@@ -58,7 +58,7 @@ export default function PaymentPlansSection() {
             as="a"
             variant="secondary"
             className={"max-w-[600px] text-center"}>
-            buy tickets with payment plan
+            Register for presale access
           </Btn>
         </div>
       </div>

@@ -14,8 +14,9 @@ export default function page() {
       <Header />
       <HeroSection />
       <PromoVideoSection />
-      <EarlyBirdDiscounts />
       <FreeTee />
+      <EarlyBirdDiscounts />
+
       <PaymentPlansSection />
       <FestivalHighlights />
       <section className="bg-mustard py-5 lg:py-8">

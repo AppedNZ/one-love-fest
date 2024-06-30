@@ -5,7 +5,7 @@ import Btn from "../Btn";
 export default function HeroSection() {
   return (
     <section className="relative min-h-svh flex flex-col items-center justify-center py-20  xl:py-32 2xl:py-40">
-      <div className="relative m-auto flex flex-col items-center justify-center w-10/12 xl:w-9/12 gap-4 lg:gap-8">
+      <div className="relative m-auto flex flex-col items-center justify-center w-11/12 xl:w-9/12 gap-4 lg:gap-8">
         <Image
           className="pointer-events-none object-cover "
           priority
@@ -83,60 +83,86 @@ export default function HeroSection() {
             <p>LOPZ & DA RASTAZ</p>
           </div>
         </h2>
-        <h2 class="text-stroke flex lg:hidden flex-wrap  gap-1 justify-center text-white uppercase text-center text-[clamp(16px,2.5vw,44px)] leading-none">
-          <p>MAOLI ·</p>
-          <p>REBEL SOULJAHZ ·</p>
-          <p>J BOOG ·</p>
-          <p>FIJI ·</p>
-          <p>KATCHAFIRE ·</p>
-          <p>CORRELLA</p>
+        <h2 class="text-stroke flex lg:hidden flex-col  items-center gap-1 justify-center text-white uppercase text-center text-[clamp(1px,3.5vw,44px)] leading-none">
+          <div className="flex gap-1 min-w-max">
+            <p>MAOLI ·</p>
+            <p>REBEL SOULJAHZ ·</p>
+            <p>J BOOG ·</p>
+            <p>FIJI </p>
+          </div>
 
-          <p>MAGIC! ·</p>
-          <p>1814 ·</p>
-          <p>INNER CIRCLE ·</p>
-          <p>STEEL PULSE ·</p>
-          <p>SPAWNBREEZIE </p>
+          <div className="flex gap-1">
+            <p>KATCHAFIRE ·</p>
+            <p>CORRELLA ·</p>
+            <p>MAGIC! ·</p>
+            <p>1814</p>
+          </div>
+          <div className="flex gap-1">
+            <p>INNER CIRCLE ·</p>
+            <p>STEEL PULSE ·</p>
+            <p>SPAWNBREEZIE </p>
+          </div>
+          <div className="flex gap-1 ">
+            <p>ADEAZE ·</p>
+            <p>HOUSE OF SHEM ·</p>
+            <p>HORI SHAW </p>
+          </div>
+          <div className="flex gap-1">
+            {" "}
+            <p>TOMORROW PEOPLE ·</p>
+            <p>ARDIJAH ·</p>
+            <p>JOSH WAWA </p>
+          </div>
 
-          <p>ADEAZE ·</p>
-          <p>HOUSE OF SHEM ·</p>
-          <p>HORI SHAW ·</p>
-          <p>TOMORROW PEOPLE </p>
+          <div className="flex gap-1">
+            <p>K'NOVA ·</p>
+            <p>JARO LOCAL ·</p>
+            <p>FIA ·</p>
+            <p>LOMEZ BROWN </p>
+          </div>
+          <div className="flex gap-1">
+            <p>LOMEZ BROWN ·</p>
+            <p>FE JOINT ·</p>
+            <p>SUB-TRIBE </p>
+          </div>
+          <div className="flex gap-1">
+            <p>SON & WATER ·</p>
+            <p>TJ & HURI </p>
 
-          <p>ARDIJAH ·</p>
-          <p>JOSH WAWA ·</p>
-          <p>K'NOVA ·</p>
-          <p>JARO LOCAL ·</p>
-          <p>FIA </p>
+            <p>LION REZZ </p>
+          </div>
+          <div className="flex gap-1">
+            <p>BRUTHA RODZ ·</p>
+            <p>SWISS & TREE ·</p>
+            <p>WAYNO </p>
+          </div>
+          <div className="flex gap-1">
+            <p>THREE HOUSES DOWN ·</p>
+            <p>GENERAL FIYAH </p>
+          </div>
+          <div className="flex gap-1">
+            <p>REX ATIRAI </p>
 
-          <p>LOMEZ BROWN ·</p>
-          <p>FE JOINT ·</p>
-          <p>SUB-TRIBE ·</p>
-          <p>SON & WATER ·</p>
-          <p>TJ & HURI </p>
+            <p>BRADAMON ·</p>
+            <p>PIETER T ·</p>
+            <p>DEACH </p>
+          </div>
+          <div className="flex gap-1">
+            <p>SAMSON SQUAD ·</p>
+            <p>MIKEY MAYZ ·</p>
+            <p>SAMMIELZ </p>
+          </div>
+          <div className="flex gap-1">
+            <p>KRISY Erin·</p>
+            <p>ERIN CEE BLUE ·</p>
+            <p>PEOPLE OF THE PA </p>
+          </div>
 
-          <p>LION REZZ ·</p>
-          <p>BRUTHA RODZ ·</p>
-          <p>SWISS & TREE ·</p>
-          <p>WAYNO </p>
-
-          <p>THREE HOUSES DOWN ·</p>
-          <p>GENERAL FIYAH ·</p>
-          <p>REX ATIRAI </p>
-
-          <p>BRADAMON ·</p>
-          <p>PIETER T ·</p>
-          <p>DEACH ·</p>
-          <p>SAMSON SQUAD ·</p>
-          <p>MIKEY MAYZ </p>
-
-          <p>SAMMIELZ ·</p>
-          <p>KRISY Erin·</p>
-          <p>ERIN CEE BLUE ·</p>
-          <p>PEOPLE OF THE PA </p>
-
-          <p>ILLUMINGATI ·</p>
-          <p>MIRAGE ·</p>
-          <p>SIANNE ·</p>
+          <div className="flex gap-1">
+            <p>ILLUMINGATI ·</p>
+            <p>MIRAGE ·</p>
+            <p>SIANNE </p>
+          </div>
           <p>LOPZ & DA RASTAZ</p>
         </h2>
 

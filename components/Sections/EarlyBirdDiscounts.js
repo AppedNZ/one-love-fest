@@ -29,7 +29,7 @@ export default function EarlyBirdDiscounts() {
               $349
             </p>
           </div>
-          <p className={styles.caption}>1 st rel. $239 Save $20 </p>
+          {/* <p className={styles.caption}>1 st rel. $239 Save $20 </p> */}
         </div>
         <div className={`${styles.pass} ${styles.vvip}`}>
           <p style={{ "--chars": "vvip 2 Day Pass".length }} className={styles.head}>
@@ -41,7 +41,7 @@ export default function EarlyBirdDiscounts() {
               $1499
             </p>
           </div>
-          <p className={styles.caption}>1 st rel. $239 Save $20 </p>
+          {/* <p className={styles.caption}>1 st rel. $239 Save $20 </p> */}
         </div>
       </div>
     </section>

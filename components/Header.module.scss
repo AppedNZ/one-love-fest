@@ -48,11 +48,11 @@
     }
   }
   .socials {
-    @apply lg:mr-4 max-xl:hidden;
+    @apply max-xl:hidden;
   }
 }
 .buy {
-  @apply p-4 rounded-10 bg-black leading-none;
+  @apply py-2 px-4 rounded-10 bg-black leading-none h-10 flex items-center;
   font-size: 22px;
   span {
     @apply inline-flex relative top-0.5;

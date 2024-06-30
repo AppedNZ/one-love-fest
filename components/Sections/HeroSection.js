@@ -127,7 +127,7 @@ export default function HeroSection() {
           </div>
           <div className="flex gap-1">
             <p>SON & WATER ·</p>
-            <p>TJ & HURI </p>
+            <p>TJ & HURI ·</p>
 
             <p>LION REZZ </p>
           </div>
@@ -169,7 +169,7 @@ export default function HeroSection() {
         <Btn
           href={"https://arep.co/p/one-love-2025--pre-register--win-1"}
           className={"max-w-max mx-auto"}>
-          REGISTER FOR ONE LOVE PRE-SALE
+          REGISTER FOR ONE LOVE PRESALE
         </Btn>
       </div>
       <div className="-z-[1] w-full h-full absolute top-0 left-0">

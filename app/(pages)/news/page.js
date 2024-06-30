@@ -8,7 +8,7 @@ export default function LineUp() {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
       className="w-full  flex  flex-col  h-auto lg:h-full lg:flex-grow overflow-hidden bg-black rounded-10  gap-5 p-4 2xl:p-8   text-white ">
-      <p className="text-slate-500">30 Jun 2024 </p>
+      <p className="text-slate-500">1 Jul 2024 </p>
       <h1 className="text-mustard text-lg xl:text-3xl uppercase  flex-shrink-0">
         One Love 2025 Line-Up Announced{" "}
       </h1>

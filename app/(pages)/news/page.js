@@ -63,12 +63,12 @@ export default function LineUp() {
         ensure we bring it back in 2025,” he said.
       </p>
       <p>
-        “We love New Zealand music and we know our One Love whānau appreciate homegrown talent. We
+        “We love New Zealand music and we know our One Love whanau appreciate homegrown talent. We
         want to do what we can to cater to both artists and fans,” Meikle said.
       </p>
       <p>
         One Love tickets will be available as part of the official pre-sale for 48 hours from July
-        10, 2024. Registrations for the pre-sale are now open, giving people the chance to purchase
+        9, 2024. Registrations for the pre-sale are now open, giving people the chance to purchase
         tickets before they are released to the public.
       </p>
       <p>

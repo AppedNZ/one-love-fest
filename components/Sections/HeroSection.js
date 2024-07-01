@@ -121,49 +121,46 @@ export default function HeroSection() {
             <p>LOMEZ BROWN </p>
           </div>
           <div className="flex gap-1">
-            <p>LOMEZ BROWN ·</p>
             <p>FE JOINT ·</p>
-            <p>SUB-TRIBE </p>
+            <p>SUB-TRIBE ·</p>
+            <p>SON & WATER </p>
           </div>
           <div className="flex gap-1">
-            <p>SON & WATER ·</p>
             <p>TJ & HURI ·</p>
-
+            <p>BRUTHA RODZ ·</p>
             <p>LION REZZ </p>
           </div>
           <div className="flex gap-1">
-            <p>BRUTHA RODZ ·</p>
             <p>SWISS & TREE ·</p>
-            <p>WAYNO </p>
-          </div>
-          <div className="flex gap-1">
-            <p>THREE HOUSES DOWN ·</p>
+            <p>WAYNO ·</p>
             <p>GENERAL FIYAH </p>
           </div>
           <div className="flex gap-1">
-            <p>REX ATIRAI </p>
-
-            <p>BRADAMON ·</p>
-            <p>PIETER T ·</p>
+            <p>THREE HOUSES DOWN ·</p>
+            <p>REX ATIRAI ·</p>
             <p>DEACH </p>
           </div>
           <div className="flex gap-1">
-            <p>SAMSON SQUAD ·</p>
-            <p>MIKEY MAYZ ·</p>
-            <p>SAMMIELZ </p>
+            <p>BRADAMON ·</p>
+            <p>PIETER T ·</p>
+            <p>SAMSON SQUAD</p>
           </div>
           <div className="flex gap-1">
-            <p>KRISY Erin ·</p>
-            <p>CEE BLUE ·</p>
+            <p>MIKEY MAYZ ·</p>
+            <p>SAMMIELZ ·</p>
+            <p>KRISY Erin </p>
+          </div>
+          <div className="flex gap-1">
+            <p>CEE BLU ·</p>
+            <p>ILLUMINGATI ·</p>
             <p>PEOPLE OF THE PA </p>
           </div>
 
           <div className="flex gap-1">
-            <p>ILLUMINGATI ·</p>
             <p>MIRAGE ·</p>
-            <p>SIANNE </p>
+            <p>SIANNE ·</p>
+            <p>LOPZ & DA RASTAZ</p>
           </div>
-          <p>LOPZ & DA RASTAZ</p>
         </h2>
 
         <Btn

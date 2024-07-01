@@ -73,7 +73,7 @@ export default function HeroSection() {
           <div className="flex gap-1 justify-center *:min-w-max flex-wrap">
             <p>SAMMIELZ ·</p>
             <p>KRISY Erin ·</p>
-            <p>CEE BLUE ·</p>
+            <p>CEE BLU ·</p>
             <p>PEOPLE OF THE PA </p>
           </div>
           <div className="flex gap-1 justify-center *:min-w-max flex-wrap">

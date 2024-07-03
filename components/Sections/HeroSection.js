@@ -164,6 +164,7 @@ export default function HeroSection() {
         </h2>
 
         <Btn
+          as="a"
           href={"https://arep.co/p/one-love-2025--pre-register--win-1"}
           className={"max-w-max mx-auto"}>
           REGISTER FOR ONE LOVE PRESALE

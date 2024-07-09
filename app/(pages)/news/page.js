@@ -75,7 +75,7 @@ export default function LineUp() {
         Those who purchase tickets during the 48 hour pre-sale will receive a free One Love t-shirt
         as well as access to discounted tickets. To pre-register,{" "}
         <a
-          href="https://arep.co/p/one-love-2025--pre-register--win-1"
+          href="https://www.ticketfairy.com/event/one-love-festival-2025"
           className="text-mustard underline uppercase text-lg">
           CLICK HERE
         </a>

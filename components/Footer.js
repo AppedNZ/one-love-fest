@@ -19,11 +19,9 @@ export default function Footer() {
         <Socials className={`${styles.socials} `} />
         <a
           style={{ height: "auto" }}
-          href={"https://arep.co/p/one-love-2025--pre-register--win-1"}
+          href={"https://www.ticketfairy.com/event/one-love-festival-2025"}
           className={`${styles.buy} flex py-4 flex-shrink-0 text-balance text-center h-auto`}>
-          <span className="relative top-0.5 ">
-            REGISTER FOR ONE <br /> LOVE PRESALE
-          </span>
+          <span className="relative top-0.5 ">Buy tickets</span>
         </a>
       </nav>
     </footer>

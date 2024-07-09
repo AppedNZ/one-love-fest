@@ -165,9 +165,9 @@ export default function HeroSection() {
 
         <Btn
           as="a"
-          href={"https://arep.co/p/one-love-2025--pre-register--win-1"}
+          href={"https://www.ticketfairy.com/event/one-love-festival-2025"}
           className={"max-w-max mx-auto"}>
-          REGISTER FOR ONE LOVE PRESALE
+          Buy Tickets
         </Btn>
       </div>
       <div className="-z-[1] w-full h-full absolute top-0 left-0">

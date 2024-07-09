@@ -58,9 +58,9 @@ export default function Header() {
         </button>
         <Socials className={styles.socials} />
         <a
-          href="https://arep.co/p/one-love-2025--pre-register--win-1"
+          href="https://www.ticketfairy.com/event/one-love-festival-2025"
           className={`${styles.buy} max-lg:hidden`}>
-          <span> Presale access</span>
+          <span> buy tickets</span>
         </a>
       </nav>
       <div
@@ -77,13 +77,13 @@ export default function Header() {
           <Link
             href={"/buy-tickets"}
             className="w-max p-4 rounded-md bg-pink leading-none font-bold text-white uppercase transition-all hover:text-pink hover:bg-white">
-            <span>Presale access</span>
+            <span>buy tickets</span>
           </Link>
         ) : (
           <a
-            href={"https://arep.co/p/one-love-2025--pre-register--win-1"}
+            href={"https://www.ticketfairy.com/event/one-love-festival-2025"}
             className={`${styles.buy} uppercase  text-center text-xl w-max px-4 h-auto`}>
-            <span className="relative top-2">Presale access</span>
+            <span className="relative top-2">buy tickets</span>
           </a>
         )}
         <Socials />

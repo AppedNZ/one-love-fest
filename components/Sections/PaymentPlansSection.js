@@ -54,11 +54,11 @@ export default function PaymentPlansSection() {
           </p>
 
           <Btn
-            href={"https://arep.co/p/one-love-2025--pre-register--win-1"}
+            href={"https://www.ticketfairy.com/event/one-love-festival-2025"}
             as="a"
             variant="secondary"
             className={"max-w-[600px] text-center"}>
-            Register for presale access
+            Buy Tickets
           </Btn>
         </div>
       </div>

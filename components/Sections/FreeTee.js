@@ -12,12 +12,12 @@ export default function FreeTee() {
               <Btn
                 style={{ color: "white" }}
                 as="a"
-                href="https://arep.co/p/one-love-2025--pre-register--win-1"
+                href="https://www.ticketfairy.com/event/one-love-festival-2025"
                 variant="secondary"
                 className={
                   "text-balance text-center max-w-[490px] max-lg:text-4xl lg:max-w-[345px] w-full flex-shrink-0"
                 }>
-                register for one <br className="max-lg:hidden" /> love presale
+                Buy Tickets
               </Btn>
             </div>
             <div className="w-full  relative">

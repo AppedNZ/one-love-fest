@@ -40,7 +40,7 @@ fbq('track', 'PageView');
 `,
           }}
         />
-        <GoogleAnalytics gaId="G-Q451BFG64T" />
+        <GoogleAnalytics gaId="G-HPFD97CLFB" />
       </body>
     </html>
   );

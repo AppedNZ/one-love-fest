@@ -1,5 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
+import Image from "next/image";
 import { useState } from "react";
 import CampingTabs from "./CampingTabs";
 
@@ -20,10 +21,13 @@ export default function Camping() {
           initial={{ opacity: 0 }}
           exit={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          className="w-full bg-mustard rounded-10 flex flex-col gap-2 lg:gap-4 leading-none p-4 2xl:p-8  text-black ">
+          className="w-full bg-mustard rounded-10 flex flex-col gap-1  leading-none p-4 2xl:p-8  text-black ">
           <h5 className="text-pink font-black text-3xl 2xl:text-6xl  uppercase border-black/20 pb-2">
             BYO CAMPING
           </h5>
+          <div className="w-full pb-[45%] relative rounded-lg overflow-hidden mb-5">
+            <Image className="object-cover" fill src={"/camping.jpeg"} alt="Camping" />
+          </div>
           You can purchase a 'Camping' pass on top of your festival ticket, which gives you:
           <ul className="text-sm lg:text-base">
             <li>* The opportunity to purchase a three night stay. </li>
@@ -31,9 +35,9 @@ export default function Camping() {
               * A tent site. You will need to bring your own tent but please be mindful of others by
               only using the space you need.{" "}
             </li>
-            <li>* Access to hot showers. </li>
+            <li>* Access to General Store. </li>
             <li>* Access to toilets. </li>
-            <li> * 24/7 onsite security. </li>
+            <li> * 24/7 onsite security and customer service. </li>
             <li>* Secure onsite parking. </li>
             <li>* Ability to purchase food and beverages. </li>
             <li>
@@ -61,10 +65,18 @@ export default function Camping() {
           initial={{ opacity: 0 }}
           exit={{ opacity: 0 }}
           animate={{ opacity: 1, transitionDelay: 1 }}
-          className="w-full bg-mustard rounded-10 flex flex-col gap-5 p-4 2xl:p-8  text-black">
+          className="w-full bg-mustard rounded-10 flex flex-col  gap-1  p-4 2xl:p-8  text-black">
           <h5 className="text-pink font-black text-3xl 2xl:text-6xl uppercase border-black/20 pb-2">
             The Village
           </h5>
+          <div className="w-full pb-[45%] relative rounded-lg overflow-hidden mb-5">
+            <Image
+              className="object-cover object-[30%,30%]"
+              fill
+              src={"/village.jpeg"}
+              alt="The Village"
+            />
+          </div>
           You can purchase a 'Village Package Pass' on top of your festival ticket, which gives you:
           <ul>
             <li>* The opportunity to purchase a three night stay for two or three people. </li>
@@ -72,9 +84,20 @@ export default function Camping() {
               * Bedding configurations of either 2x single airbeds or 1x double airbed for a
               two-person stay.{" "}
             </li>
-            <li>* ou will need to bring your own pillow, sleeping bag, blankets and linen. </li>
+            <li>
+              * You will need to bring your own pillow, sleeping bag, blankets and linen. We will
+              have lanterns available for purchase, or get a refund if you return it in good order
+              at our General Store{" "}
+            </li>
           </ul>
-          Two-Person stay: $370 per person. Three-Person stay: $330 per person.
+          <p> Two-Person stay: $370 per person.</p>
+          <p>Three-Person stay: $330 per person.</p>
+          <p>Price includes $99 camping fee</p>
+          <p> Three-Person bedding configuration options :</p>
+          <ul>
+            <li>- 3 x single airbeds</li>
+            <li>- 1 x single airbed, 1 x double airbed</li>
+          </ul>
         </motion.div>
       )}
       {currentTab === "glamping" && (
@@ -83,25 +106,33 @@ export default function Camping() {
           initial={{ opacity: 0 }}
           exit={{ opacity: 0 }}
           animate={{ opacity: 1, transitionDelay: 1 }}
-          className="w-full bg-mustard rounded-10 flex flex-col gap-5 p-4 2xl:p-8 text-black">
+          className="w-full bg-mustard rounded-10 flex flex-col gap-1 p-4 2xl:p-8 text-black">
           <h5 className="text-pink font-black text-3xl 2xl:text-6xl uppercase border-black/20 pb-2">
             Glamping
           </h5>
+          <div className="w-full pb-[45%] relative rounded-lg overflow-hidden mb-5">
+            <Image
+              className="object-cover object-[50%,50%]"
+              fill
+              src={"/glamping.jpeg"}
+              alt="Glamping"
+            />
+          </div>
           You can purchase a 'Glamping' pass on top of your festival ticket, which gives you:
           <ul>
             <li>* The opportunity to purchase a three night stay for two or four people. </li>
             <li>* Your own glamping site. </li>
             <li>* Accommodation in a large bell tent. </li>
             <li>
-              An air mattress (single or double configurations), bed linen and pillow provided for
-              you.
+              An air mattress (single or double configurations), bed linen, duvet and pillow
+              provided for you.
             </li>
             <li>* The luxury of arriving at an already set up site. </li>
             <li>* Dedicated showers. </li>
             <li>* Dedicated toilets. </li>
-            <li>* Your own lantern. </li>
-            <li>* 24/7 onsite security. </li>
-            <li>* Secure priority parking. </li>
+            <li>* Your own lantern. indoor mat, mirror </li>
+            <li>* 24/7 onsite security and customer service. </li>
+            <li>* Secure priority parking. Free bus to and from Festival </li>
 
             <li>
               * Access to a licensed bar. Opening hours will be specified closer to the time.{" "}
@@ -114,8 +145,10 @@ export default function Camping() {
           <p> Glamping Pricing:</p>
           <ul>
             <li> Two-Person Glamping Package: $650 per person</li>
+            <li> Three-Person Glamping Package: $590 per person</li>
             <li>Four-Person Glamping Package: $530 per person</li>
           </ul>
+          <p>Price includes $99 camping fee</p>
         </motion.div>
       )}
     </motion.div>

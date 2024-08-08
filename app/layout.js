@@ -1,4 +1,5 @@
 import { GoogleAnalytics } from "@next/third-parties/google";
+import { Analytics } from "@vercel/analytics/react";
 import Script from "next/script";
 import "./globals.css";
 export const metadata = {
@@ -40,6 +41,7 @@ fbq('track', 'PageView');
 `,
           }}
         />
+        <Analytics />
         <GoogleAnalytics gaId="G-HPFD97CLFB" />
       </body>
     </html>

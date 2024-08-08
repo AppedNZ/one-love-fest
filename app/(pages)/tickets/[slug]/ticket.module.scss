@@ -3,6 +3,11 @@
   b {
     @apply text-mustard;
   }
+  li em,
+  li i {
+    @apply text-carmine uppercase;
+    font-style: normal;
+  }
   ul,
   p {
     @apply mb-4;

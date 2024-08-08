@@ -25,10 +25,25 @@
       @apply text-mustard;
       font-size: calc((calc(60vw - 40px) / var(--price-chars)) / 0.75);
     }
+    &:has(.soldout) p:not(.soldout) {
+      opacity: 0.7;
+    }
     .caption {
       text-align: center;
       color: #84e26f;
       font-size: calc((calc(90vw - 40px) / var(--caption-chars)) / 0.75);
+      &.soldout {
+        padding: 8px 12px;
+        color: white;
+        border-radius: 10px;
+        background-color: #da053f;
+        max-width: max-content;
+        margin: 0 auto;
+        span {
+          position: relative;
+          top: 4px;
+        }
+      }
     }
     &:first-of-type {
       .caption {
@@ -97,6 +112,18 @@
         text-align: center;
         color: #84e26f;
         font-size: clamp(12px, calc((calc(22vw - 40px) / var(--caption-chars)) / 0.75), 58px);
+        &.soldout {
+          padding: 8px 12px;
+          color: white;
+          border-radius: 10px;
+          background-color: #da053f;
+          max-width: max-content;
+          margin: 0 auto;
+          span {
+            position: relative;
+            top: 4px;
+          }
+        }
       }
       &:first-of-type {
         .caption {

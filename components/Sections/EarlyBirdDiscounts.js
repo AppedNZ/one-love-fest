@@ -17,7 +17,10 @@ export default function EarlyBirdDiscounts() {
               $219
             </p>
           </div>
-          <p className={styles.caption}>Save up to $30 </p>
+
+          <p className={`${styles.caption} ${styles.soldout}`}>
+            <span>sold out</span>{" "}
+          </p>
         </div>
         <div className={`${styles.pass} ${styles.vip}`}>
           <p style={{ "--chars": "vip 2 Day Pass".length }} className={styles.head}>

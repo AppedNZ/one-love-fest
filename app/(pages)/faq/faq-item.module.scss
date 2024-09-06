@@ -1,5 +1,5 @@
 .row {
-  @apply w-full  text-white text-xl px-2 flex flex-col cursor-pointer py-3 border-b border-white/20 last:border-black/0;
+  @apply w-full  text-black text-xl px-2 flex flex-col cursor-pointer py-3 border-b border-white/20 last:border-black/0;
   will-change: height;
   .question {
     @apply w-full flex items-center text-mustard justify-between  uppercase font-bold gap-5;

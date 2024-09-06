@@ -21,6 +21,7 @@ module.exports = {
         purp: "#7200FF",
         carmine: "#DA053F",
         slime: "#84E26F",
+        orange: "#EC530C",
       },
     },
   },

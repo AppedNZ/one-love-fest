@@ -16,14 +16,16 @@ export default function LinksPart({ desktop = false, className = "", onClick }) 
             className={`${className} ${
               i + 1 === header_links.length ? "border-none" : ""
             } flex items-center justify-between ${
-              link.url.includes(handle) ? "text-mustard lg:bg-black" : ""
+              link.url.includes(handle) ? "text-mustard lg:text-white lg:bg-mustard " : ""
             }`}
             onClick={onClick}
             href={link.url}>
             {link.label}
             <ChevronRightIcon
               className={`w-6  ${
-                link.url.includes(handle) ? "text-mustard rotate-180" : "text-white"
+                link.url.includes(handle)
+                  ? "text-mustard lg:text-white rotate-180"
+                  : "text-white lg:text-black"
               }`}
             />
           </Link>

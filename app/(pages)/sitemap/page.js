@@ -9,7 +9,7 @@ export default function Sitemap() {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
-      className="w-full  flex  flex-col  h-auto lg:h-full lg:flex-grow overflow-hidden bg-black rounded-10  gap-5 p-4 2xl:p-8   text-black ">
+      className="w-full  flex  flex-col  h-auto lg:h-full lg:flex-grow overflow-hidden bg-white border-2 border-gray-400/50 rounded-10  gap-5 p-4 2xl:p-8   text-black ">
       <h5 className="text-3xl 2xl:text-6xl text-white  uppercase lg:pb-8 flex-shrink-0">Sitemap</h5>
       <Image
         width={1161}

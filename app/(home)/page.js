@@ -1,8 +1,8 @@
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
-import CampingSection from "@/components/Sections/CampingSection";
-import EarlyBirdDiscounts from "@/components/Sections/EarlyBirdDiscounts";
-import FestivalHighlights from "@/components/Sections/FestivalHighlights";
+// import CampingSection from "@/components/Sections/CampingSection";
+//import EarlyBirdDiscounts from "@/components/Sections/EarlyBirdDiscounts";
+// import FestivalHighlights from "@/components/Sections/FestivalHighlights";
 // import FreeTee from "@/components/Sections/FreeTee";
 import HeroSection from "@/components/Sections/HeroSection";
 import PaymentPlansSection from "@/components/Sections/PaymentPlansSection";
@@ -15,10 +15,10 @@ export default function page() {
       <HeroSection />
       <PromoVideoSection />
       {/* <FreeTee /> */}
-      <EarlyBirdDiscounts />
+      {/* <EarlyBirdDiscounts /> */}
 
       <PaymentPlansSection />
-      <FestivalHighlights />
+      {/* <FestivalHighlights /> */}
       <section className="bg-mustard py-5 lg:py-8">
         <div className="wrapper flex justify-center text-center">
           <p
@@ -28,7 +28,7 @@ export default function page() {
           </p>
         </div>
       </section>
-      <CampingSection />
+      {/* <CampingSection /> */}
       <Footer />
     </>
   );

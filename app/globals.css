@@ -41,7 +41,8 @@ body {
 }
 
 .gradient {
-  background: linear-gradient(180deg, #C59409 0%, #DB8401 20%, #C8021D 100%);
+  background: linear-gradient(180deg, #FFFFFF 0%, #FFFFFF 45.43%, #F2DD87 55.77%, #EC982F 68.66%, #E24E03 82.75%, #E23813 100%);
+
 }
 
 @layer utilities {

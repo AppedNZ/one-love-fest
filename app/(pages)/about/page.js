@@ -9,7 +9,7 @@ export default function LineUp() {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
-      className="w-full  flex  flex-col  h-auto lg:h-full lg:flex-grow overflow-hidden bg-black rounded-10  gap-5 p-4 2xl:p-8   text-black ">
+      className="w-full  flex  flex-col  h-auto lg:h-full lg:flex-grow overflow-hidden bg-white border-2 border-gray-400/50 rounded-10  gap-5 p-4 2xl:p-8   text-black ">
       <Image
         className="w-full   lg:h-[40vh] object-cover rounded-10 flex-grow mx-auto relative z-[1] rounded-10r"
         width={crowd.width}

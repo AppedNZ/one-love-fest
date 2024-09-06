@@ -5,7 +5,7 @@ import styles from "./Header.module.scss";
 import Socials from "./Socials";
 export default function Footer() {
   return (
-    <footer className={`bg-carmine py-4`}>
+    <footer className={`bg-orange py-4`}>
       <nav className="wrapper flex flex-wrap max-md:flex-col justify-between items-center uppercase gap-4">
         <div className={"w-1/2 max-w-40"}>
           <Image className="w-full" width={logo.width} height={logo.height} src={logo} />{" "}

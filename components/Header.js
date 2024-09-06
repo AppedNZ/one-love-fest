@@ -8,6 +8,7 @@ import logo from "../assets/logo.png";
 import styles from "./Header.module.scss";
 import MobileLinks from "./MobileLinks";
 import Socials from "./Socials";
+import SocialsHeader from "./SocialsHeader";
 export default function Header() {
   const location = usePathname();
   const isHome = location === "/";
@@ -38,7 +39,7 @@ export default function Header() {
             </Link>
           ))}
         </ul>
-        <Link prefetch={false} href={"/"} className={styles.logo}>
+        <Link prefetch={false} href={"/"} className={`${styles.logo} `}>
           <Image
             className="w-full"
             quality={100}
@@ -56,7 +57,7 @@ export default function Header() {
           <div className={styles["line-middle"]}></div>
           <div className={styles["line-bottom"]}></div>
         </button>
-        <Socials className={styles.socials} />
+        <SocialsHeader className={styles.socials} />
         <a
           href="https://www.ticketfairy.com/event/one-love-festival-2025"
           className={`${styles.buy} max-lg:hidden`}>
@@ -64,7 +65,7 @@ export default function Header() {
         </a>
       </nav>
       <div
-        className={`lg:hidden flex flex-col items-center  fixed h-svh top-0 right-0 z-10 bg-carmine w-full transition-all pt-14 p-8 gap-5 ${
+        className={`lg:hidden flex flex-col items-center  fixed h-svh top-0 right-0 z-10 bg-orange w-full transition-all pt-14 p-8 gap-5 ${
           open ? "opacity-100" : "opacity-0 pointer-events-none"
         }`}>
         <MobileLinks

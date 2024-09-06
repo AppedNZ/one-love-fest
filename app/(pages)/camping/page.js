@@ -12,7 +12,7 @@ export default function Camping() {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
-      className="w-full flex flex-col  pt-4   lg:p-8  rounded-10  gap-5 bg-black text-black ">
+      className="w-full flex flex-col  pt-4   lg:p-8  rounded-10  gap-5 bg-white border-2 border-gray-400/50 text-black ">
       <CampingTabs current={currentTab} setCurrent={setCurrentTab} />
 
       {currentTab === "camping" && (
@@ -21,7 +21,7 @@ export default function Camping() {
           initial={{ opacity: 0 }}
           exit={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          className="w-full bg-mustard rounded-10 flex flex-col gap-1  leading-none p-4 2xl:p-8  text-black ">
+          className="w-full  flex flex-col gap-1  leading-none p-4 2xl:p-8  text-black ">
           <h5 className="text-pink font-black text-3xl 2xl:text-6xl  uppercase border-black/20 pb-2">
             BYO CAMPING
           </h5>
@@ -65,7 +65,7 @@ export default function Camping() {
           initial={{ opacity: 0 }}
           exit={{ opacity: 0 }}
           animate={{ opacity: 1, transitionDelay: 1 }}
-          className="w-full bg-mustard rounded-10 flex flex-col  gap-1  p-4 2xl:p-8  text-black">
+          className="w-full  flex flex-col  gap-1  p-4 2xl:p-8  text-black">
           <h5 className="text-pink font-black text-3xl 2xl:text-6xl uppercase border-black/20 pb-2">
             The Village
           </h5>
@@ -106,7 +106,7 @@ export default function Camping() {
           initial={{ opacity: 0 }}
           exit={{ opacity: 0 }}
           animate={{ opacity: 1, transitionDelay: 1 }}
-          className="w-full bg-mustard rounded-10 flex flex-col gap-1 p-4 2xl:p-8 text-black">
+          className="w-full  flex flex-col gap-1 p-4 2xl:p-8 text-black">
           <h5 className="text-pink font-black text-3xl 2xl:text-6xl uppercase border-black/20 pb-2">
             Glamping
           </h5>

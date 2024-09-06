@@ -42,7 +42,7 @@ export default async function Tab({ params }) {
   const { heading, ticket_Info } = ticket_info?.fields || {};
 
   return (
-    <div className="flex flex-col text-white xl:text-xl ">
+    <div className="flex flex-col text-black xl:text-xl ">
       <h5 className="text-3xl uppercase text-pink font-bold  mb-5 text-center">{heading}</h5>
       <div className={styles.ticket_info}>{documentToReactComponents(ticket_Info, options)}</div>
       <a

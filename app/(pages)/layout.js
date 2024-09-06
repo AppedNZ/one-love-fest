@@ -1,4 +1,4 @@
-import bg from "@/assets/bg.jpeg";
+import bg from "@/assets/home/back-min.jpg";
 import Header from "@/components/Header";
 import MobileLinks from "@/components/MobileLinks";
 import Image from "next/image";

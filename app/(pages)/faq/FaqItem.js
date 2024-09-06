@@ -15,7 +15,7 @@ export default function FaqItem({ question, children, open, handleOpen }) {
         {question}
         <div className="w-8 h-8 bg-mustard justify-center items-center flex flex-shrink-0 rounded-md">
           <ChevronDownIcon
-            className={`${!open ? "rotate-0" : "rotate-180"} w-5 transition-all text-black`}
+            className={`${!open ? "rotate-0" : "rotate-180"} w-5 transition-all text-white`}
           />
         </div>
       </div>

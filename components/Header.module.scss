@@ -31,7 +31,7 @@
   }
   .links {
     @apply hidden w-[55%] 2xl:w-3/4 gap-2 justify-between max-xl:hidden ml-auto;
-    max-width: 840px;
+    max-width: 1040px;
     a {
       @apply hover:text-mustard text-black relative;
       top: 3px;

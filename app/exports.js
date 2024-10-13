@@ -1,4 +1,4 @@
-import { ABOUT, CONTACT, FAQ, NEWS, SITEMAP, TICKETS } from "./constants";
+import { ABOUT, CONTACT, FAQ, HARD_COPY_TICKETS, NEWS, SITEMAP, TICKETS } from "./constants";
 
 export const header_links = [
   { url: "/", label: "Home" },
@@ -10,4 +10,5 @@ export const header_links = [
   { url: NEWS, label: "News" },
   { url: CONTACT, label: "Contact" },
   { url: SITEMAP, label: "Sitemap" },
+  { url: HARD_COPY_TICKETS, label: "Hard Copy Tickets" },
 ];

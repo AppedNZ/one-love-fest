@@ -25,7 +25,7 @@ const list = [
   {
     title: "MOUNT MAUNGANUI",
     stores: [
-      { title: "Superliquor", phone: "Newton Street, Mount Maunganui", phone: "07 575 2739" },
+      { title: "Super Liquor", phone: "Newton Street, Mount Maunganui", phone: "07 575 2739" },
     ],
   },
   {
@@ -49,7 +49,7 @@ const list = [
       { title: "Red Rat Porirua", phone: "04 238 2611" },
       { title: "Red Rat Rotorua", phone: "07 347 6690" },
       { title: "Red Rat Tauranga", phone: "09 978 3543" },
-      { title: "Red Rat Whangārei", phone: "09 978 3571" },
+      { title: "Red Rat Whangarei", phone: "09 978 3571" },
     ],
   },
 ];

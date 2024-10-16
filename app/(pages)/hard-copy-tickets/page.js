@@ -7,6 +7,7 @@ const list = [
     title: "AUCKLAND CENTRAL & NORTH",
     stores: [{ title: "Doreen Poupouare", phone: "0272265259" }],
   },
+  { title: "TAURANGA", stores: [{ title: "Ellie", phone: "0211016152" }] },
   {
     title: "SOUTH AUCKLAND",
     stores: [

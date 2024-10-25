@@ -38,6 +38,10 @@ const list = [
     stores: [{ title: "Paul Faapo", phone: "021 103 7268" }],
   },
   {
+    title: "GISBORNE",
+    stores: [{ title: "Bridget", phone: "0220829199" }],
+  },
+  {
     title: "RED RAT STORES",
     stores: [
       { title: "Red Rat Hamilton", phone: "07 847 4150" },

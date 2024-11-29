@@ -65,7 +65,7 @@ export default function HeroSection() {
         </div>
       </div>
       <Image
-        className="pointer-events-none w-[25vw] absolute top-1/2 right-[5%] -translate-y-1/2 max-lg:hidden"
+        className="pointer-events-none w-[25vw] absolute top-1/2 right-[5%] -translate-y-[45%] max-lg:hidden"
         priority
         loading="eager"
         quality={100}

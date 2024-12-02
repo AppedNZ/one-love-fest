@@ -1,8 +1,8 @@
+import lineup from "@/assets/home/lineup.png";
 import Image from "next/image";
 import artists from "../../assets/home/artists-desktop.png";
 import artistsMob from "../../assets/home/artists-mob.png";
 import bg from "../../assets/home/back-min.jpg";
-import lineup from "../../assets/home/lineup.png";
 import logo from "../../assets/home/logo-cropped.png";
 import Btn from "../Btn";
 export default function HeroSection() {
@@ -19,7 +19,7 @@ export default function HeroSection() {
         alt="Artists"
       />
 
-      <div className="relative m-auto flex flex-col items-center justify-center w-full lg:w-[40vw]  lg:gap-8 max-lg:overflow-x-hidden ">
+      <div className="relative m-auto flex flex-col items-center justify-center w-full lg:w-[30vw]  lg:gap-8 max-lg:overflow-x-hidden ">
         <Image
           className="pointer-events-none object-cover max-lg:w-1/2 "
           priority
@@ -65,7 +65,7 @@ export default function HeroSection() {
         </div>
       </div>
       <Image
-        className="pointer-events-none w-[25vw] absolute top-1/2 right-[5%] -translate-y-[45%] max-lg:hidden"
+        className="pointer-events-none w-[29vw] absolute top-1/2 right-[5%] -translate-y-[45%] max-lg:hidden"
         priority
         loading="eager"
         quality={100}

@@ -7,10 +7,9 @@ import Socials from "../../components/Socials";
 import Timer from "../../components/Timer";
 export default function ComingSoon() {
   useEffect(() => {
-    // Get a reference to the video element
     const video = document.getElementById("background-video");
     video.play();
-    // Function to start the video when it's fully loaded
+
     const startVideoWhenLoaded = () => {
       video.play(); // Start playing the video
     };
@@ -18,6 +17,7 @@ export default function ComingSoon() {
   return (
     <div className="w-screen  h-screen overflow-hidden flex flex-col items-center relative">
       <Header />
+
       <div className="flex flex-col items-center gap-3 justify-center h-1/2 flex-grow w-full max-w-[1330px] relative">
         <div className="flex flex-col items-center w-full max-w-max ">
           {/* <Image

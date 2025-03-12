@@ -34,9 +34,7 @@ export default function FAQ() {
             </p>
           </div>
           <div className=" w-full   flex-grow flex flex-col items-start justify-center gap-2 max-lg:py-4 max-h-32">
-            <p className=" text-mustard text-left text-xl 2xl:text-3xl">
-              Media & Sponsorship: Kristin
-            </p>
+            <p className=" text-mustard text-left text-xl 2xl:text-3xl">Media & Sponsorship</p>
             <p className="text-md 2xl:text-2xl">
               <a
                 href="mailto:media@timelessgroup.co.nz"

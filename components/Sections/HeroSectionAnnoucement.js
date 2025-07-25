@@ -31,7 +31,9 @@ export default function HeroSectionAnnouncement() {
           className={" mx-auto p-4 bg-orange max-lg:my-5"}>
           Register Now
         </Btn>
-        <Socials />
+        <div className="lg:hidden">
+          <Socials />
+        </div>
       </div>
 
       <div className="-z-[1] w-full h-full absolute top-0 left-0 ">

@@ -13,7 +13,7 @@
     @apply bg-mustard text-black hover:bg-black hover:text-white;
   }
   &.orange {
-    @apply rounded-lg w-10/12;
+    @apply rounded-lg w-10/12 hover:bg-black;
     background: #ffa101;
   }
 }

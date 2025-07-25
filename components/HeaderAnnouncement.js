@@ -3,13 +3,13 @@ import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
-import { header_links } from "../app/exports";
 import logo from "../assets/logo.png";
+import Btn from "./Btn";
 import styles from "./Header.module.scss";
 import MobileLinks from "./MobileLinks";
 import Socials from "./Socials";
 import SocialsHeader from "./SocialsHeader";
-export default function Header() {
+export default function HeaderAnnouncement({ s }) {
   const location = usePathname();
   const isHome = ["/", "/2026"].includes(location);
   const [scrolled, setScrolled] = useState(false);
@@ -28,17 +28,10 @@ export default function Header() {
   }, []);
   return (
     <div
-      className={`${styles.header} ${isHome ? styles.home : ""} ${
+      className={`${styles.header} ${isHome ? styles.home : ""} max-lg:hidden ${
         scrolled ? styles.scrolled : ""
       }`}>
       <nav className="wrapper flex justify-between items-center uppercase gap-4">
-        <ul className={styles.links}>
-          {header_links.slice(1, header_links.length).map((l) => (
-            <Link prefetch={false} key={l.url} href={l.url}>
-              {l.label}
-            </Link>
-          ))}
-        </ul>
         <Link prefetch={false} href={"/"} className={`${styles.logo} `}>
           <Image
             className="w-full"
@@ -58,11 +51,13 @@ export default function Header() {
           <div className={styles["line-bottom"]}></div>
         </button>
         <SocialsHeader className={styles.socials} />
-        <a
-          href="https://www.ticketfairy.com/event/one-love-festival-2025"
-          className={`${styles.buy} max-lg:hidden`}>
-          <span> buy tickets</span>
-        </a>
+        <Btn
+          as="a"
+          variant="orange"
+          href="https://forms.gle/zePCeY8z4JKNf1Sv8"
+          className={`max-lg:hidden max-w-max `}>
+          <span className="relative  inline-block ">Register Now</span>
+        </Btn>
       </nav>
       <div
         className={`lg:hidden flex flex-col items-center  fixed h-svh top-0 right-0 z-10 bg-orange w-full transition-all pt-14 p-8 gap-5 ${
@@ -78,13 +73,13 @@ export default function Header() {
           <Link
             href={"/buy-tickets"}
             className="w-max p-4 rounded-md bg-pink leading-none font-bold text-white uppercase transition-all hover:text-pink hover:bg-white">
-            <span>buy tickets</span>
+            <span>Register now</span>
           </Link>
         ) : (
           <a
             href={"https://www.ticketfairy.com/event/one-love-festival-2025"}
             className={`${styles.buy} uppercase  text-center text-xl w-max px-4 h-auto`}>
-            <span className="relative top-2">buy tickets</span>
+            <span className="relative top-2">Register Now</span>
           </a>
         )}
         <Socials />

@@ -19,9 +19,7 @@ export default function HeroSectionAnnouncement() {
           alt="pattern"
         />
         <p className="font-matiz uppercase text-[clamp(18px,5vw,30px)] font-black text-black leading-tight text-center lg:w-[64vw] relative lg:-top-5">
-          Preparations for One Love 2026 are well underway and we are nearly ready to share the
-          information with you. To make sure you're among the first to know about any One Love 2026
-          updates, register now
+          2026 details coming soon.
         </p>
 
         <Btn
@@ -29,7 +27,7 @@ export default function HeroSectionAnnouncement() {
           variant="primary"
           href={"https://forms.gle/zePCeY8z4JKNf1Sv8"}
           className={" mx-auto p-4 bg-orange max-lg:my-5"}>
-          Register Now
+          Register now to get the info first
         </Btn>
         <div className="lg:hidden">
           <Socials />

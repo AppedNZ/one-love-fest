@@ -19,7 +19,9 @@ export default function HeroSectionAnnouncement() {
           alt="pattern"
         />
         <p className="font-matiz uppercase text-[clamp(18px,5vw,30px)] font-black text-black leading-tight text-center lg:w-[64vw] relative lg:-top-5">
-          2026 details coming soon.
+          2026 details coming soon
+          <br />
+          Register now to get the info first
         </p>
 
         <Btn
@@ -27,7 +29,7 @@ export default function HeroSectionAnnouncement() {
           variant="primary"
           href={"https://forms.gle/zePCeY8z4JKNf1Sv8"}
           className={" mx-auto p-4 bg-orange max-lg:my-5"}>
-          Register now to get the info first
+          Register now
         </Btn>
         <div className="lg:hidden">
           <Socials />

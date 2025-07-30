@@ -29,7 +29,7 @@ export default function HeroSectionAnnouncement() {
           variant="primary"
           href={"https://forms.gle/zePCeY8z4JKNf1Sv8"}
           className={" mx-auto p-4 bg-orange max-lg:my-5"}>
-          Register now
+          Register here
         </Btn>
         <div className="lg:hidden">
           <Socials />

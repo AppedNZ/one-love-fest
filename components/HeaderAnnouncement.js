@@ -56,7 +56,7 @@ export default function HeaderAnnouncement({ s }) {
           variant="orange"
           href="https://forms.gle/zePCeY8z4JKNf1Sv8"
           className={`max-lg:hidden max-w-max `}>
-          <span className="relative  inline-block ">Register Now</span>
+          <span className="relative  inline-block ">Register here</span>
         </Btn>
       </nav>
       <div
@@ -73,13 +73,13 @@ export default function HeaderAnnouncement({ s }) {
           <Link
             href={"/buy-tickets"}
             className="w-max p-4 rounded-md bg-pink leading-none font-bold text-white uppercase transition-all hover:text-pink hover:bg-white">
-            <span>Register now</span>
+            <span>Register here</span>
           </Link>
         ) : (
           <a
             href={"https://www.ticketfairy.com/event/one-love-festival-2025"}
             className={`${styles.buy} uppercase  text-center text-xl w-max px-4 h-auto`}>
-            <span className="relative top-2">Register Now</span>
+            <span className="relative top-2">Register here</span>
           </a>
         )}
         <Socials />

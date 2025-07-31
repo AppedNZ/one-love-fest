@@ -4,7 +4,6 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import logo from "../assets/logo.png";
-import Btn from "./Btn";
 import styles from "./Header.module.scss";
 import MobileLinks from "./MobileLinks";
 import Socials from "./Socials";
@@ -32,7 +31,7 @@ export default function HeaderAnnouncement({ s }) {
         scrolled ? styles.scrolled : ""
       }`}>
       <nav className="wrapper flex justify-between items-center uppercase gap-4">
-        <Link prefetch={false} href={"/"} className={`${styles.logo} `}>
+        <Link prefetch={false} href={"#"} className={`${styles.logo} `}>
           <Image
             className="w-full"
             quality={100}
@@ -51,13 +50,13 @@ export default function HeaderAnnouncement({ s }) {
           <div className={styles["line-bottom"]}></div>
         </button>
         <SocialsHeader className={styles.socials} />
-        <Btn
+        {/* <Btn
           as="a"
           variant="orange"
           href="https://forms.gle/zePCeY8z4JKNf1Sv8"
           className={`max-lg:hidden max-w-max `}>
           <span className="relative  inline-block ">Register here</span>
-        </Btn>
+        </Btn> */}
       </nav>
       <div
         className={`lg:hidden flex flex-col items-center  fixed h-svh top-0 right-0 z-10 bg-orange w-full transition-all pt-14 p-8 gap-5 ${
@@ -69,7 +68,7 @@ export default function HeaderAnnouncement({ s }) {
             setOpen(false);
           }}
         />
-        {false ? (
+        {/* {false ? (
           <Link
             href={"/buy-tickets"}
             className="w-max p-4 rounded-md bg-pink leading-none font-bold text-white uppercase transition-all hover:text-pink hover:bg-white">
@@ -81,7 +80,7 @@ export default function HeaderAnnouncement({ s }) {
             className={`${styles.buy} uppercase  text-center text-xl w-max px-4 h-auto`}>
             <span className="relative top-2">Register here</span>
           </a>
-        )}
+        )} */}
         <Socials />
       </div>
     </div>

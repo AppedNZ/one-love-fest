@@ -1,6 +1,6 @@
 export const metadata = {
-  title: "One Love '25",
-  description: "One Love '25 - Katahi Aroha reggae festival",
+  title: "One Love '26",
+  description: "One Love '26 - Register to know first",
 };
 
 export default function RootLayout({ children }) {
